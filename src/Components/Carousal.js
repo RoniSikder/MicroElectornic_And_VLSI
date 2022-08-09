@@ -1,14 +1,16 @@
 import Image1 from '../Image Components/116562030_743598219729983_3964364687946251314_n.jpg'
 import { useState } from 'react';
 const Carousal = () => {
-    const [isHovering, setIsHovering] = useState(false);
-
-    const handleMouseEnter = () => {
-        setIsHovering(true);
+    const [isLeftHovering, setIsLeftHovering] = useState(false);
+    const [isRightHovering, setIsRightHovering] = useState(false);
+    const handleMouseEnter = (temp) => {
+        temp === "left" ?
+            setIsLeftHovering(true) : setIsRightHovering(true);
     };
 
-    const handleMouseLeave = () => {
-        setIsHovering(false);
+    const handleMouseLeave = (temp) => {
+        temp === "left" ?
+            setIsLeftHovering(false) : setIsRightHovering(false);
     };
     return (
         <>
@@ -19,12 +21,12 @@ const Carousal = () => {
                 fontFamily: "'Staatliches', cursive"
             }}>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" style={{ position: "relative" }}>
+                    <div class="carousel-item active">
                         <img src={Image1} class="d-block w-100" alt="..." style={{ filter: "brightness(70%) opacity(70%)", backgroundColor: "white" }} />
-                        <div class="carousel-caption d-none d-md-block" style={{ textAlign: "left", height: "60%" }}>
-                            <h1 style={{ color: "white", fontSize: '100px' }}>Welcome To</h1>
-                            <h1 style={{ color: "black", fontSize: '100px' }}>The Depertment of</h1>
-                            <h1 style={{ color: "orange", fontSize: '100px' }}>Micro_Electronic And VLSI</h1>
+                        <div class="carousel-caption d-none d-md-block mx-auto" style={{ textAlign: "left" }}>
+                            <h1 style={{ color: "white", fontSize: '80px' }}>Welcome To</h1>
+                            <h1 style={{ color: "black", fontSize: '80px' }}>The Depertment of</h1>
+                            <h1 style={{ color: "orange", fontSize: '80px' }}>Micro_Electronic And VLSI</h1>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -43,36 +45,36 @@ const Carousal = () => {
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style={{
-                    backgroundColor: isHovering ? 'black' : '',
-                    color: isHovering ? 'white' : 'black',
-                    margin: "20% 0px",
+                    backgroundColor: isLeftHovering ? 'black' : '',
+                    color: isLeftHovering ? 'white' : 'black',
+                    margin: "auto 0px",
                     height: "100px",
                     width: "100px",
                     borderRadius: "50%"
                 }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}>
+                    onMouseEnter={() => { handleMouseEnter("left") }}
+                    onMouseLeave={() => { handleMouseLeave("left") }}>
                     <span class="material-symbols-outlined" style={{ fontSize: "70px" }}>
                         arrow_left
                     </span>
 
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style={{
-                    backgroundColor: isHovering ? 'black' : '',
-                    color: isHovering ? 'white' : 'black',
-                    margin: "20% 0px",
+                    backgroundColor: isRightHovering ? 'black' : '',
+                    color: isRightHovering ? 'white' : 'black',
+                    margin: "auto 0px",
                     height: "100px",
                     width: "100px",
                     borderRadius: "50%"
                 }}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}>
+                    onMouseEnter={() => { handleMouseEnter("right") }}
+                    onMouseLeave={() => { handleMouseLeave("right") }}>
                     <span class="material-symbols-outlined" style={{ fontSize: "70px" }}>
                         arrow_right
                     </span>
                 </button>
             </div>
-            
+
         </>
     )
 }
