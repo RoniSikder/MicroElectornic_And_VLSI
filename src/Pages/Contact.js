@@ -1,17 +1,44 @@
 import React from 'react'
-import Enquiry from '../Components/Enquiry'
 
 const Contact = () => {
   return (
     <>
-      <div style={{display:"flex",justifyContent:"center", textAlign: "center", backgroundColor:"#8e9eab" }}>
-        <div style={{ margin: "20px 0px",color:"orange",borderRight:"none"}}>
-          <Enquiry />
+      <div style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
+        <div style={{ margin: "20px 0px", color: "orange", borderRight: "none" }}>
+          <div style={{ padding: "5% 5%", backgroundColor: "white", borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }}>
+            <h1  style={{ fontFamily: "'Kanit', sans-serif" }}>Send Enquiry</h1>
+            <div style={{ display: "flex", justifyContent: "space-around", gap: "20px", margin: "20px 0px", height: "50px" }}>
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Name</span>
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              </div>
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Email</span>
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              </div>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-around", gap: "20px", margin: "20px 0px", height: "50px" }}>
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Subject</span>
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              </div>
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Phone</span>
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              </div>
+            </div>
+            <textarea rows="5" style={{ width: "100%", padding: "15px" }} placeholder='Enter Your Message'></textarea>
+          </div>
         </div>
-        <div style={{margin: "20px 0px",padding:"3%",backgroundColor:"royalblue",color:"white",borderTopRightRadius:"10px",borderBottomRightRadius:"10px"}}>
-          <h4>contact@email.com</h4>
-          <h4>123456789</h4>
-          <h4>Address portion</h4>
+        <div style={{ margin: "20px 0px", padding: "3%", backgroundColor: "transparent", color: "white", borderTopRightRadius: "10px", borderBottomRightRadius: "10px", border: "2px solid white",display:"flex",flexDirection:"column",justifyContent:"space-around"}}>
+          <div>
+            <h4>contact@email.com</h4>
+            <h4>123456789</h4>
+            <h4>Address portion</h4>
+          </div>
+          <div>
+            <button type="button" class="btn btn-success" style={{width:"80%"}}>Send</button>
+          </div>
         </div>
       </div>
     </>

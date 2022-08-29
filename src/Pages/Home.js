@@ -1,42 +1,32 @@
 import React from 'react'
 import Carousal from '../Components/Carousal'
+import Notice_Card from '../Components/Notice_Card'
+import { Notice_Data } from '../Components/Notice_Data'
 import Project_Cards from '../Components/Project_Cards'
-
-const Home = () => {
+import { Project_Data } from '../Components/Project_Data'
+const Home = ({setTemp}) => {
+  let index=Notice_Data.length;
   return (
     <>
       <Carousal />
-      <div style={{ display: "flex", padding: "0px 20px", margin: "20px 0px", justifyContent: "space-around" }}>
+      <div style={{ display: "flex", padding: "50px 20px", justifyContent: "space-around" }}>
         <div style={{ width: "50%" }}>
-          <h3 style={{
-            fontFamily: "'Abril Fatface', cursive",
-            fontFamily: "'Fredoka One', cursive",
-            fontFamily: "'Josefin Sans', sans-serif",
-            fontFamily: "'Staatliches', cursive"
-
-          }}>About</h3>
-          <h1 style={{
-            fontFamily: "'Abril Fatface', cursive",
-            fontFamily: "'Fredoka One', cursive",
-            fontFamily: "'Josefin Sans', sans-serif",
-            fontFamily: "'Staatliches', cursive"
-          }}>Depertment of</h1>
-          <h1 style={{
-            fontFamily: "'Abril Fatface', cursive",
-            fontFamily: "'Fredoka One', cursive",
-            fontFamily: "'Josefin Sans', sans-serif",
-            fontFamily: "'Staatliches', cursive"
-          }}>Micro_Electronics And VLSI</h1>
-          <p style={{fontSize:"30px"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas fuga cum alias laboriosam deserunt, officia quis aliquid, illo aut est nam aperiam sapiente nisi sed ea, repellat rem omnis perspiciatis non corporis debitis necessitatibus? Repellat reiciendis at deserunt, delectus nihil quam quia veniam sapiente voluptatum provident corporis sit voluptatem aliquam enim est excepturi vel cum consequatur nam facere corrupti quaerat expedita. Cum quis veritatis architecto molestiae, id consequuntur aut eligendi sapiente unde fugiat? Alias quam aliquam neque sapiente ducimus nesciunt soluta earum vel suscipit. Fugit maiores sequi eaque eius eveniet natus, rerum incidunt explicabo odit perferendis deleniti magni, eligendi repudiandae?</p>
-          <button className="btn btn-success">Learn More</button>
+          <div style={{ fontFamily: "'Kanit', sans-serif" }}>
+            <h4 style={{ color: "#FEE715FF" }}>About</h4>
+            <div style={{ borderBottom: "2px solid #FEE715FF" }}></div>
+            <h1 style={{ color: "white" }}>Depertment of</h1>
+            <h1 style={{ color: "white" }}>Micro_Electronics And VLSI</h1>
+          </div>
+          <p style={{ fontSize: "20px" }}>The Department of Microelectronics and VLSI Technology envisions to be a leader in providing state-of-the-art education through excellence in teaching, training, and research in contemporary areas of Microelectronics, VLSI Design and Embedded Systems as well as it aspires to meet the global and socio-economic challenges of the state as well as the country. The Department is one of the Departments of significance in MAKAUT under the School of Engineering Science. The Department offers AICTE-approved M.Tech. Programs in Microelectronics and VLSI Technology and Embedded Systems and VLSI Design and offers a Ph.D. program as well. The Department has well-qualified and experienced faculties and good laboratory facilities with state-of-the-art equipment. The Department has quite strong interaction with several reputed industries and academics and is currently executing several R&D projects.</p>
+          <button onClick={() => { setTemp("about") }} className="btn btn-success">Learn More</button>
         </div>
-        <div style={{ width: "40%", backgroundColor: "#111922", textAlign: "center", borderRadius: "10px"}}>
-          <h1 style={{ color: "white" }}>Projects</h1>
-          <div style={{ padding: "40px", display:"flex",justifyContent:"space-around",flexDirection:"column"}}>
-            <Project_Cards />
-            <Project_Cards />
-            <Project_Cards />
-            <Project_Cards />
+        <div style={{ width: "40%", backgroundColor: "#E8E7E1", textAlign: "center", borderRadius: "10px", padding: "10px 10px" }}>
+          <h1 style={{ color: "black", fontFamily: "'Kanit', sans-serif" }}>Notice</h1>
+          <div style={{ padding: "40px", display: "flex", justifyContent: "space-around", flexDirection: "column", color: "#00203FFF" }}>
+            <Notice_Card id={index - 1} />
+            <Notice_Card id={index - 2} />
+            <Notice_Card id={index - 3} />
+            <button className="btn btn-warning">Load More</button>
           </div>
         </div>
       </div>

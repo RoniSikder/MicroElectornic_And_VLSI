@@ -14,19 +14,14 @@ const Carousal = () => {
     };
     return (
         <>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style={{
-                fontFamily: "'Abril Fatface', cursive",
-                fontFamily: "'Fredoka One', cursive",
-                fontFamily: "'Josefin Sans', sans-serif",
-                fontFamily: "'Staatliches', cursive"
-            }}>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={Image1} class="d-block w-100" alt="..." style={{ filter: "brightness(70%) opacity(70%)", backgroundColor: "white" }} />
-                        <div class="carousel-caption d-none d-md-block mx-auto" style={{ textAlign: "left" }}>
+                        <img src={Image1} class="d-block w-100" alt="..." style={{ filter: "brightness(70%) opacity(90%)", backgroundColor: "white" }} />
+                        <div class="carousel-caption d-none d-md-block mx-auto" style={{ textAlign: "left", fontFamily: "'Yeseva One', cursive", width: "max-content"}}>
                             <h1 style={{ color: "white", fontSize: '80px' }}>Welcome To</h1>
-                            <h1 style={{ color: "black", fontSize: '80px' }}>The Depertment of</h1>
-                            <h1 style={{ color: "orange", fontSize: '80px' }}>Micro_Electronic And VLSI</h1>
+                            <h1 style={{ color: "#adefd1ff", fontSize: '80px' }}>The Depertment of</h1>
+                            <h1 style={{ color: "white", fontSize: '80px' }}>Microelectronic And VLSI</h1>
                         </div>
                     </div>
                     <div class="carousel-item">
