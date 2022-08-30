@@ -22,6 +22,7 @@ const Carousal = () => {
                             <h1 style={{ color: "white", fontSize: '80px' }}>Welcome To</h1>
                             <h1 style={{ color: "#adefd1ff", fontSize: '80px' }}>The Depertment of</h1>
                             <h1 style={{ color: "white", fontSize: '80px' }}>Microelectronic And VLSI</h1>
+                            <h1 style={{ color: "white", fontSize: '80px' }}>Technology</h1>
                         </div>
                     </div>
                     <div class="carousel-item">

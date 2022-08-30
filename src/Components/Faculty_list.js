@@ -21,7 +21,7 @@ const Faculty_list = ({ setId , setTemp}) => {
                             <div onClick={() => { setId(x.id);setTemp("faculty_details") }} class="card text-bg-dark" style={{ width: "17%", height: "300px" }}>
                                 <img src={x.imaga} style={{ height: "100%", width: "100%" }} class="card-img" />
                                 <div class="card-img-overlay">
-                                    <h5 style={{ position: "absolute", bottom: "0", padding: "5px", color: "black", fontWeight: 'bold' }} class="card-title">{x.name}</h5>
+                                    <h5 style={{ position: "absolute", bottom: "0", padding: "5px", color: "Black", fontWeight: 'bold' }} class="card-title">{x.name}</h5>
                                 </div>
                             </div>
                         )

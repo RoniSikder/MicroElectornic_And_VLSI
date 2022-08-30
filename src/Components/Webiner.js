@@ -22,7 +22,7 @@ export const Webiner = [
             },
             {
                 name: "Dr. Madhumita Das Sarkar",
-                designation: "HOD- Department of Microelectronics and VLSI Technology",
+                designation: " Associate Professor Department of Microelectronics and VLSI Technology",
                 institute: "MAKAUT,WB"
             }
         ]
@@ -40,7 +40,7 @@ export const Webiner = [
             },
             {
                 name: "Prof. Shibamay Dasgupta",
-                designation: "Director school of Engineering Sciences",
+                designation: "Director school of Engineering Science and Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -50,7 +50,7 @@ export const Webiner = [
             },
             {
                 name: "Dr. Madhumita Das Sarkar",
-                designation: "HOD- Department of Microelectronics and VLSI Technology",
+                designation: "Associate Professor Department of Microelectronics and VLSI Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -73,7 +73,7 @@ export const Webiner = [
             },
             {
                 name: "Prof. Shibamay Dasgupta",
-                designation: "Director school of Engineering Sciences",
+                designation: "Director school of Engineering Science and Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -83,7 +83,7 @@ export const Webiner = [
             },
             {
                 name: "Dr. Madhumita Das Sarkar",
-                designation: "HOD- Department of Microelectronics and VLSI Technology",
+                designation: "Associate Professor Department of Microelectronics and VLSI Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -106,7 +106,7 @@ export const Webiner = [
             },
             {
                 name: "Prof. Shibamay Dasgupta",
-                designation: "Director school of Engineering Sciences",
+                designation: "Director school of Engineering Science and Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -116,7 +116,7 @@ export const Webiner = [
             },
             {
                 name: "Dr. Madhumita Das Sarkar",
-                designation: "HOD- Department of Microelectronics and VLSI Technology",
+                designation: "Associate Professor Department of Microelectronics and VLSI Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -144,7 +144,7 @@ export const Webiner = [
             },
             {
                 name: "Prof. Shibamay Dasgupta",
-                designation: "Director school of Engineering Sciences",
+                designation: "Director school of Engineering Science and Technology",
                 institute: "MAKAUT,WB"
             },
             {
@@ -173,7 +173,7 @@ export const Webiner = [
             },
             {
                 name: "Prof. Shibamay Dasgupta",
-                designation: "Director school of Engineering Sciences",
+                designation: "Director school of Engineering Science and Technology",
                 institute: "MAKAUT,WB"
             },
             {

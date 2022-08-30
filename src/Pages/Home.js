@@ -16,6 +16,7 @@ const Home = ({setTemp}) => {
             <div style={{ borderBottom: "2px solid #FEE715FF" }}></div>
             <h1 style={{ color: "white" }}>Depertment of</h1>
             <h1 style={{ color: "white" }}>Micro_Electronics And VLSI</h1>
+            
           </div>
           <p style={{ fontSize: "20px" }}>The Department of Microelectronics and VLSI Technology envisions to be a leader in providing state-of-the-art education through excellence in teaching, training, and research in contemporary areas of Microelectronics, VLSI Design and Embedded Systems as well as it aspires to meet the global and socio-economic challenges of the state as well as the country. The Department is one of the Departments of significance in MAKAUT under the School of Engineering Science. The Department offers AICTE-approved M.Tech. Programs in Microelectronics and VLSI Technology and Embedded Systems and VLSI Design and offers a Ph.D. program as well. The Department has well-qualified and experienced faculties and good laboratory facilities with state-of-the-art equipment. The Department has quite strong interaction with several reputed industries and academics and is currently executing several R&D projects.</p>
           <button onClick={() => { setTemp("about") }} className="btn btn-success">Learn More</button>
