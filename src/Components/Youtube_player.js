@@ -19,7 +19,7 @@ const Youtube_player = ({ id,setTempa }) => {
             </div>
             )
           }
-          <button onClick={()=>{setTempa(null)}} type="button" class="btn btn-outline-warning">Back</button>
+          <button onClick={()=>{setTempa(null)}} type="button" className="btn btn-outline-warning">Back</button>
         </div>
       </div>
     </>

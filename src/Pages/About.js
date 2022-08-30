@@ -5,10 +5,10 @@ const About = () => {
         <>
             <div>
                 <div>
-                    <div class="card text-bg-dark">
-                        <img src={photo} class="card-img" alt="..." style={{ opacity: "30%" }} />
-                        <div class="card-img-overlay">
-                            <h1 class="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>About Us</h1>
+                    <div className="card text-bg-dark">
+                        <img src={photo} className="card-img" alt="..." style={{ opacity: "30%" }} />
+                        <div className="card-img-overlay">
+                            <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>About Us</h1>
                         </div>
                     </div>
                 </div>
