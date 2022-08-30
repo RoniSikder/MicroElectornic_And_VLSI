@@ -8,10 +8,10 @@ const Notice_List = () => {
             <div>
                 <div>
                     <div style={{ color: "white" }}>
-                        <div class="card text-bg-dark">
-                            <img src={photo} class="card-img" alt="..." style={{ opacity: "30%",height:"15rem" }} />
-                            <div class="card-img-overlay">
-                                <h1 class="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Notice Board</h1>
+                        <div className="card text-bg-dark">
+                            <img src={photo} className="card-img" alt="..." style={{ opacity: "30%",height:"15rem" }} />
+                            <div className="card-img-overlay">
+                                <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Notice Board</h1>
                             </div>
                         </div>
                     </div>
@@ -19,12 +19,12 @@ const Notice_List = () => {
                 <div style={{ display: "flex", justifyContent: "center", flexFlow: "wrap" }}>
                     {
                         Notice_Data.map(x =>
-                            <div class="card text-center" style={{ width: "30rem", margin: "2%" }}>
-                                <div class="card-body">
-                                    <h2 class="card-title" style={{ color: "black", fontFamily: "'Kanit', sans-serif" }}>{x.name}</h2>
-                                    <p class="card-text" style={{ color: "green" }} >{x.date}</p>
-                                    <p class="card-text" style={{ color: "orange" }} >{x.about}</p>
-                                    <a href="#" class="btn btn-primary">go to details</a>
+                            <div className="card text-center" style={{ width: "30rem", margin: "2%" }}>
+                                <div className="card-body">
+                                    <h2 className="card-title" style={{ color: "black", fontFamily: "'Kanit', sans-serif" }}>{x.name}</h2>
+                                    <p className="card-text" style={{ color: "green" }} >{x.date}</p>
+                                    <p className="card-text" style={{ color: "orange" }} >{x.about}</p>
+                                    <a href="#" className="btn btn-primary">go to details</a>
                                 </div>
                             </div>
                         )
