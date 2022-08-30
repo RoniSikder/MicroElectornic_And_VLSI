@@ -8,23 +8,23 @@ const Contact = () => {
           <div style={{ padding: "5% 5%", backgroundColor: "white", borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }}>
             <h1  style={{ fontFamily: "'Kanit', sans-serif" }}>Send Enquiry</h1>
             <div style={{ display: "flex", justifyContent: "space-around", gap: "20px", margin: "20px 0px", height: "50px" }}>
-              <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">Name</span>
-                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              <div className="input-group flex-nowrap">
+                <span className="input-group-text" id="addon-wrapping">Name</span>
+                <input type="text" className="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
               </div>
-              <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">Email</span>
-                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              <div className="input-group flex-nowrap">
+                <span className="input-group-text" id="addon-wrapping">Email</span>
+                <input type="text" className="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
               </div>
             </div>
             <div style={{ display: "flex", justifyContent: "space-around", gap: "20px", margin: "20px 0px", height: "50px" }}>
-              <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">Subject</span>
-                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              <div className="input-group flex-nowrap">
+                <span className="input-group-text" id="addon-wrapping">Subject</span>
+                <input type="text" className="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
               </div>
-              <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">Phone</span>
-                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
+              <div className="input-group flex-nowrap">
+                <span className="input-group-text" id="addon-wrapping">Phone</span>
+                <input type="text" className="form-control" aria-label="Username" aria-describedby="addon-wrapping" />
               </div>
             </div>
             <textarea rows="5" style={{ width: "100%", padding: "15px" }} placeholder='Enter Your Message'></textarea>
@@ -37,7 +37,7 @@ const Contact = () => {
             <h4>Address portion</h4>
           </div>
           <div>
-            <button type="button" class="btn btn-success" style={{width:"80%"}}>Send</button>
+            <button type="button" className="btn btn-success" style={{width:"80%"}}>Send</button>
           </div>
         </div>
       </div>

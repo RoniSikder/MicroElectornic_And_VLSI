@@ -7,10 +7,10 @@ const Events_List = ({ setTempa }) => {
         <>
             <div>
                 <div>
-                    <div class="card text-bg-dark">
-                        <img src={photo} class="card-img" alt="..." style={{ opacity: "30%" }} />
-                        <div class="card-img-overlay">
-                            <h1 class="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Events</h1>
+                    <div className="card text-bg-dark">
+                        <img src={photo} className="card-img" alt="..." style={{ opacity: "30%" }} />
+                        <div className="card-img-overlay">
+                            <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Events</h1>
                         </div>
                     </div>
                 </div>
@@ -19,11 +19,11 @@ const Events_List = ({ setTempa }) => {
                     <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "center" }}>
                         {
                             Webiner.map(x =>
-                                <div class="card" onClick={() => { setTempa(x.id) }} style={{ width: "28rem", margin: "10px", padding: "3px" }}>
-                                    <img src="https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <p class="card-text" style={{ color: "black" }}>{x.date}</p>
-                                        <p class="card-text" style={{ color: "black" }}>{x.topic}</p>
+                                <div className="card" onClick={() => { setTempa(x.id) }} style={{ width: "28rem", margin: "10px", padding: "3px" }}>
+                                    <img src="https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <p className="card-text" style={{ color: "black" }}>{x.date}</p>
+                                        <p className="card-text" style={{ color: "black" }}>{x.topic}</p>
                                     </div>
                                 </div>
                             )
@@ -35,11 +35,11 @@ const Events_List = ({ setTempa }) => {
                     <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "center" }}>
                         {
                             Fdp.map(x =>
-                                <div class="card" style={{ width: "28rem", margin: "10px", padding: "3px" }}>
-                                    <img src="https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg" class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <p class="card-text" style={{ color: "black" }}>{x.date}</p>
-                                        <p class="card-text" style={{ color: "black" }}>{x.topic}</p>
+                                <div className="card" style={{ width: "28rem", margin: "10px", padding: "3px" }}>
+                                    <img src="https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg" className="card-img-top" alt="..." />
+                                    <div className="card-body">
+                                        <p className="card-text" style={{ color: "black" }}>{x.date}</p>
+                                        <p className="card-text" style={{ color: "black" }}>{x.topic}</p>
                                     </div>
                                 </div>
                             )
