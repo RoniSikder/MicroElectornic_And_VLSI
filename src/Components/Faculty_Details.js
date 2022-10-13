@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Faculty_data } from './Faculty_data'
 
-const Faculty_Details = ({ id , setTemp }) => {
+const Faculty_Details = ({ id }) => {
+    let navigate = useNavigate()
     return (
         <>
             <div>
@@ -23,7 +25,7 @@ const Faculty_Details = ({ id , setTemp }) => {
                             <p>{Faculty_data[id - 1].des}</p>
                         </div>
                         <div>
-                            <button onClick={()=>{setTemp("faculty")}} className="btn btn-warning">Back</button>
+                            <button onClick={()=>{navigate(-1)}} className="btn btn-warning">Back</button>
                         </div>
                     </div>
                 </div>

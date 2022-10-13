@@ -1,17 +1,19 @@
 import React from 'react'
 import { Course } from './Course'
 import photo from '../Image Components/All_India_Council_for_Technical_Education_logo.png'
+import { useNavigate } from 'react-router-dom'
 
 const Program_Details = ({ sigma, setTemp }) => {
+  let navigation = useNavigate()
   return (
     <>
       <div style={{ padding: "20px" }}>
-        <button className='btn btn-success' onClick={() => { setTemp('programs') }}>Close</button>
+        <button className='btn btn-success' onClick={() => { navigation(-1) }}>Close</button>
         <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "10px" }}>
           <div>
             <h1 style={{ fontFamily: "'Kanit', sans-serif" }}>{Course[sigma - 1].name}</h1>
-            <p>By Department of Microelectronics and VLSI of Maulana Abul Kalam Azad University of Technology<br/>
-            Approved by AICTE <img src={photo} style={{height:"10%",width:"10%"}}/></p>
+            <p>By Department of Microelectronics and VLSI of Maulana Abul Kalam Azad University of Technology<br />
+              Approved by AICTE <img src={photo} style={{ height: "10%", width: "10%" }} /></p>
           </div>
           <div className='card' style={{ width: "35%", border: "none" }}>
             <img src={Course[sigma - 1].imga} style={{ borderRadius: "5px" }} />
@@ -20,16 +22,8 @@ const Program_Details = ({ sigma, setTemp }) => {
         <div style={{ display: "flex", }}>
           <div style={{ backgroundColor: "white", color: "black", padding: "20px", width: "75%", borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }}>
             <div>
-              <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Vision of the Department</h3>
-              <p>{Course[sigma - 1].vis}</p>
-              <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Mission of the Department</h3>
-              {
-                Course[sigma - 1].mis.map(x =>
-                  <div>
-                    <p>{x}</p>
-                  </div>
-                )
-              }
+              <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>About The Course</h3>
+              <p>{Course[sigma - 1].intro}</p>
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Syllabus</h3>
@@ -44,8 +38,8 @@ const Program_Details = ({ sigma, setTemp }) => {
               {
                 Course[sigma - 1].teacher.map(x =>
                   <span>
-                    <p>{x.namea}<br/>
-                    {x.designation}</p>
+                    <p>{x.namea}<br />
+                      {x.designation}</p>
                   </span>
                 )
               }

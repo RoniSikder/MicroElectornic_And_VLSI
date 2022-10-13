@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Routes,Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
@@ -13,50 +14,26 @@ import Program_Details from "./Components/Program_Details";
 import Notice_List from "./Components/Notice_List";
 
 function App() {
-  let [temp, setTemp] = useState("home")
-  let [idea, setId] = useState(null)
-  let [sigma, setSigma] = useState(null)
-  let hold
-  switch (temp) {
-    case "home":
-      hold = <Home setTemp={setTemp} />
-      break
-    case "about":
-      hold = <About />;
-      break
-    case "contact":
-      hold = <Contact />;
-      break
-    case "programs":
-      hold = <Programs setSigma={setSigma} setTemp={setTemp} />
-      break
-    case "projects":
-      hold = <Projects />;
-      break
-    case "events":
-      hold = <Events />;
-      break
-    case "faculty":
-      hold = <Faculty setId={setId} setTemp={setTemp} />
-      break
-    case "faculty_details":
-      hold = <Faculty_Details id={idea} setTemp={setTemp} />
-      break
-    case "program_details":
-      hold = hold = <Program_Details sigma={sigma} setTemp={setTemp} />
-      break
-    case "notice":
-      hold = <Notice_List />;
-      break
-    default:
-      hold = <Home />;
-  }
-  console.log(temp)
+  let [sigma,setSigma]=useState(null)
+  let [id,setId]=useState(null)
   return (
     <>
-      <Navbar setTemp={setTemp} />
+      <Navbar/>
       <div style={{ backgroundColor: "#00203FFF", color: "#ADEFD1FF", fontFamily: "'Comfortaa', cursive" }}>
-        {hold}
+        <Routes>
+          <Route path="" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/program" element={<Programs setSigma={setSigma}/>}/>
+          <Route path="/program_details" element={<Program_Details sigma={sigma}/>}/>
+          <Route path="/faculty" element={<Faculty setId={setId}/>}/>
+          <Route path="/faculty_details" element={<Faculty_Details id={id}/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/events" element={<Events/>}/>
+          <Route path="/notice" element={<Notice_List/>}/>
+          {/* <Route path="" element={}/>
+          <Route path="" element={}/> */}
+        </Routes>
       </div>
       <Footer />
     </>

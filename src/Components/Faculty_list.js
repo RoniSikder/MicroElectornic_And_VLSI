@@ -1,8 +1,10 @@
 import React from 'react'
 import { Faculty_data } from './Faculty_data'
 import photo from '../Image Components/kelly-sikkema--BwtFJgaUho-unsplash.jpg'
+import { useNavigate } from 'react-router-dom'
 
-const Faculty_list = ({ setId, setTemp }) => {
+const Faculty_list = ({ setId }) => {
+    let navigation = useNavigate()
     return (
         <>
             <div>
@@ -18,7 +20,7 @@ const Faculty_list = ({ setId, setTemp }) => {
                 <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "center" }}>
                     {
                         Faculty_data.map(x =>
-                            <div onClick={() => { setId(x.id); setTemp("faculty_details") }} class="card text-bg-dark" style={{ width: "17%", height: "300px" }}>
+                            <div onClick={() => { navigation("/faculty_details");setId(x.id) }} class="card text-bg-dark" style={{ width: "17%", height: "300px" }}>
                                 <img src={x.imaga} style={{ height: "100%", width: "100%" }} class="card-img" />
                                 <div class="card-img-overlay">
                                     <h5 style={{ position: "absolute", bottom: "0", padding: "5px", color: "Black", fontWeight: 'bold' }} class="card-title">{x.name}</h5>

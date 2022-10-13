@@ -21,7 +21,7 @@ const Home = ({setTemp}) => {
           <p style={{ fontSize: "20px" }}>The Department of Microelectronics and VLSI Technology envisions to be a leader in providing state-of-the-art education through excellence in teaching, training, and research in contemporary areas of Microelectronics, VLSI Design and Embedded Systems as well as it aspires to meet the global and socio-economic challenges of the state as well as the country. The Department is one of the Departments of significance in MAKAUT under the School of Engineering Science. The Department offers AICTE-approved M.Tech. Programs in Microelectronics and VLSI Technology and Embedded Systems and VLSI Design and offers a Ph.D. program as well. The Department has well-qualified and experienced faculties and good laboratory facilities with state-of-the-art equipment. The Department has quite strong interaction with several reputed industries and academics and is currently executing several R&D projects.</p>
           <button onClick={() => { setTemp("about") }} className="btn btn-success">Learn More</button>
         </div>
-        <div style={{ width: "40%", backgroundColor: "#E8E7E1", textAlign: "center", borderRadius: "10px", padding: "10px 10px" }}>
+        <div style={{ width: "40%", backgroundColor: "#F1E1AD", textAlign: "center", borderRadius: "10px", padding: "10px 10px" }}>
           <h1 style={{ color: "black", fontFamily: "'Kanit', sans-serif" }}>Notice</h1>
           <div style={{ padding: "40px", display: "flex", justifyContent: "space-around", flexDirection: "column", color: "#00203FFF" }}>
             <Notice_Card id={index - 1} />

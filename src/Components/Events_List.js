@@ -31,7 +31,7 @@ const Events_List = ({ setTempa }) => {
                     </div>
                 </div>
                 <div style={{ padding: "20px 40px", color: "white" }}>
-                    <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Online FDA</h2>
+                    <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Online FDP</h2>
                     <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "center" }}>
                         {
                             Fdp.map(x =>
