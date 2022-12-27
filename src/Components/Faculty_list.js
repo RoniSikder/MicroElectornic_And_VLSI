@@ -20,10 +20,10 @@ const Faculty_list = ({ setId }) => {
                 <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "center" }}>
                     {
                         Faculty_data.map(x =>
-                            <div onClick={() => { navigation("/faculty_details");setId(x.id) }} class="card text-bg-dark" style={{ width: "17%", height: "300px" }}>
-                                <img src={x.imaga} style={{ height: "100%", width: "100%" }} class="card-img" />
-                                <div class="card-img-overlay">
-                                    <h5 style={{ position: "absolute", bottom: "0", padding: "5px", color: "Black", fontWeight: 'bold' }} class="card-title">{x.name}</h5>
+                            <div onClick={() => { navigation("/faculty_details");setId(x.id) }} className="card text-bg-dark" style={{ width: "17%", height: "300px" }}>
+                                <img src={x.imaga} style={{ height: "100%", width: "100%" }} className="card-img" />
+                                <div className="card-img-overlay">
+                                    <h5 style={{ position: "absolute", bottom: "0", padding: "5px", color: "Black", fontWeight: 'bold' }} className="card-title">{x.name}</h5>
                                 </div>
                             </div>
                         )

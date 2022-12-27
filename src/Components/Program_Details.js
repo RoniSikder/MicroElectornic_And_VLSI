@@ -13,7 +13,7 @@ const Program_Details = ({ sigma, setTemp }) => {
           <div>
             <h1 style={{ fontFamily: "'Kanit', sans-serif" }}>{Course[sigma - 1].name}</h1>
             <p>By Department of Microelectronics and VLSI of Maulana Abul Kalam Azad University of Technology<br />
-              Approved by AICTE <img src={photo} style={{ height: "10%", width: "10%" }} /></p>
+              Approved by AICTE <img src={photo} style={{ height: "3%", width: "3%" }} /></p>
           </div>
           <div className='card' style={{ width: "35%", border: "none" }}>
             <img src={Course[sigma - 1].imga} style={{ borderRadius: "5px" }} />
@@ -27,7 +27,7 @@ const Program_Details = ({ sigma, setTemp }) => {
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Syllabus</h3>
-              <p><a href={Course[sigma - 1].syllebus}>Click me</a> to Download the Syllebus</p>
+              <p><a href={Course[sigma - 1].syllebus} style={{ color: "red" }}>Click me</a> to Download the Syllebus</p>
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>
@@ -38,6 +38,7 @@ const Program_Details = ({ sigma, setTemp }) => {
               {
                 Course[sigma - 1].teacher.map(x =>
                   <span>
+
                     <p>{x.namea}<br />
                       {x.designation}</p>
                   </span>

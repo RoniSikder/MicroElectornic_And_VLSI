@@ -1,4 +1,6 @@
 import Image1 from '../Image Components/116562030_743598219729983_3964364687946251314_n.jpg'
+import Image2 from '../Image Components/carusal2.jpg'
+import Image3 from '../Image Components/carusal3.jpg'
 import { useState } from 'react';
 const Carousal = () => {
     const [isLeftHovering, setIsLeftHovering] = useState(false);
@@ -14,29 +16,27 @@ const Carousal = () => {
     };
     return (
         <>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="true">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={Image1} className="d-block w-100" alt="..." style={{ filter: "brightness(70%) opacity(90%)", backgroundColor: "white" }} />
-                        <div className="carousel-caption d-none d-md-block mx-auto" style={{ textAlign: "left", fontFamily: "'Yeseva One', cursive", width: "max-content"}}>
-                            <h1 style={{ color: "white", fontSize: '80px' }}>Welcome To</h1>
-                            <h1 style={{ color: "#adefd1ff", fontSize: '80px' }}>The Depertment of</h1>
-                            <h1 style={{ color: "white", fontSize: '80px' }}>Microelectronic And VLSI</h1>
-                            <h1 style={{ color: "white", fontSize: '80px' }}>Technology</h1>
+                        <div className="carousel-caption" style={{ textAlign: "left", fontFamily: "'Yeseva One', cursive", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                            <h1 style={{ color: "white", fontSize: '50px' }}>Welcome To</h1>
+                            <h1 style={{ color: "#adefd1ff", fontSize: '50px' }}>The Depertment of</h1>
+                            <h1 style={{ color: "white", fontSize: '50px' }}>Microelectronic And VLSI</h1>
+                            <h1 style={{ color: "white", fontSize: '50px' }}>Technology</h1>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
+                        <img src={Image2} className="d-block" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Collage Campus</h5>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
+                        <img src={Image3} className="d-block" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Collage Campus</h5>
                         </div>
                     </div>
                 </div>

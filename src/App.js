@@ -12,10 +12,16 @@ import Faculty from "./Pages/Faculty";
 import Faculty_Details from "./Components/Faculty_Details";
 import Program_Details from "./Components/Program_Details";
 import Notice_List from "./Components/Notice_List";
+import LabInfo from "./Pages/LabInfo";
+import Incomplete_Page from "./Components/Incomplete_Page";
+import Oppertunity from "./Components/Oppertunity";
+
 
 function App() {
   let [sigma,setSigma]=useState(null)
-  let [id,setId]=useState(null)
+  let fac=null;
+  let [id,setId]=useState(fac)
+  id!==null?fac=id :fac=fac;
   return (
     <>
       <Navbar/>
@@ -27,12 +33,13 @@ function App() {
           <Route path="/program" element={<Programs setSigma={setSigma}/>}/>
           <Route path="/program_details" element={<Program_Details sigma={sigma}/>}/>
           <Route path="/faculty" element={<Faculty setId={setId}/>}/>
-          <Route path="/faculty_details" element={<Faculty_Details id={id}/>}/>
+          <Route path="/faculty_details" element={<Faculty_Details id={fac}/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/events" element={<Events/>}/>
           <Route path="/notice" element={<Notice_List/>}/>
-          {/* <Route path="" element={}/>
-          <Route path="" element={}/> */}
+          <Route path="/labData" element={<LabInfo/>}/>
+          <Route path="/underConstruction" element={<Incomplete_Page/>}/>
+          <Route path="/oppertunity" element={<Oppertunity/>}/>
         </Routes>
       </div>
       <Footer />

@@ -4,7 +4,7 @@ export const Course = [
         name: "M.Tech in Embedded Systems and VLSI Design",
         imga: "https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg",
         syllebus: "",
-        intro:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis? Eius nisi in dolores assumenda animi libero ipsam dolorem molestias! Necessitatibus voluptatum architecto, aut quis sapiente voluptatem sit sed accusantium! intro:",
+        intro: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis? Eius nisi in dolores assumenda animi libero ipsam dolorem molestias! Necessitatibus voluptatum architecto, aut quis sapiente voluptatem sit sed accusantium! intro:",
         phone: [
             "8116384379",
             "7044730650",
@@ -46,7 +46,7 @@ export const Course = [
         ],
         duration: "2 Years",
         total_fees: "86,700",
-        Semester_fees:"18,000",
+        Semester_fees: "18,000",
         Admission_fees: "14,700",
         campas: "NH12, Haringhata, PO- Simhat, PS- Haringhata, PIN- 741249 "
     },
@@ -55,7 +55,7 @@ export const Course = [
         name: "M.Tech in Microelectronics and VLSI Technology",
         imga: "https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg",
         syllebus: "",
-        intro:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis? Eius nisi in dolores assumenda animi libero ipsam dolorem molestias! Necessitatibus voluptatum architecto, aut quis sapiente voluptatem sit sed accusantium! intro:",
+        intro: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis? Eius nisi in dolores assumenda animi libero ipsam dolorem molestias! Necessitatibus voluptatum architecto, aut quis sapiente voluptatem sit sed accusantium! intro:",
         phone: [
             "8116384379",
             "7044730650",
@@ -97,7 +97,7 @@ export const Course = [
         ],
         duration: "2 Years",
         total_fees: "86,700",
-        Semester_fees:"18,000",
+        Semester_fees: "18,000",
         Admission_fees: "14,700",
         campas: "NH12, Haringhata, PO- Simhat, PS- Haringhata, PIN- 741249"
     }
