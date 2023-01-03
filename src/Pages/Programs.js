@@ -1,7 +1,7 @@
 import React from 'react'
-import { Research_Area } from '../Components/Research_Area.js'
-import photo from '../Image Components/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg'
-import { Course } from '../Components/Course.js'
+import { Research_Area } from '../User Coustomization Portion/Research_Area.js'
+import photo from '../Image Components/Decoretion Images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg'
+import { Course } from '../User Coustomization Portion/Course.js'
 import { useNavigate } from 'react-router-dom'
 const Programs = ({setSigma}) => {
     let navigation = useNavigate()
@@ -24,7 +24,7 @@ const Programs = ({setSigma}) => {
                         {
                             Course.map(x =>
                                 <div onClick={()=>{navigation("/program_details");setSigma(x.id)}} className="card" style={{ width: "28rem", cursor: "pointer" }}>
-                                    <img src="https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg" className="card-img-top" alt="..." />
+                                    <img src={x.imga} style={{height:"80%"}}/>
                                     <div className="card-body">
                                         <p className="card-text" style={{ color: "black" }}>{x.name}</p>
                                     </div>

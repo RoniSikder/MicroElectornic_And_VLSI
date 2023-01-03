@@ -1,6 +1,6 @@
 import React from 'react'
-import { Notice_Data } from './Notice_Data'
-import photo from '../Image Components/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg'
+import { Notice_Data } from '../User Coustomization Portion/Notice_Data'
+import photo from '../Image Components/Decoretion Images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg'
 
 const Notice_List = () => {
     return (

@@ -1,6 +1,6 @@
-import Image1 from '../Image Components/116562030_743598219729983_3964364687946251314_n.jpg'
-import Image2 from '../Image Components/carusal2.jpg'
-import Image3 from '../Image Components/carusal3.jpg'
+import Image1 from '../Image Components/Carousal Pictures/116562030_743598219729983_3964364687946251314_n.jpg'
+import Image2 from '../Image Components/Carousal Pictures/carusal2.jpg'
+import Image3 from '../Image Components/Carousal Pictures/carusal3.jpg'
 import { useState } from 'react';
 const Carousal = () => {
     const [isLeftHovering, setIsLeftHovering] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Faculty_data } from './Faculty_data'
+import { Faculty_data } from '../User Coustomization Portion/Faculty_data'
 
 const Faculty_Details = ({ id }) => {
     let navigate = useNavigate()

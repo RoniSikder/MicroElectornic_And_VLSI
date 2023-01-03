@@ -1,5 +1,5 @@
 import React from 'react'
-import { Notice_Data } from './Notice_Data'
+import { Notice_Data } from '../User Coustomization Portion/Notice_Data'
 
 const Notice_Card = ({ id }) => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import Project_Cards from '../Components/Project_Cards'
-import { Project_Data } from '../Components/Project_Data'
-import { Thrush_area_Data } from '../Components/Thrush_area_Data'
-import photo from "../Image Components/pexels-fauxels-3183171.jpg"
+import { Project_Data } from '../User Coustomization Portion/Project_Data'
+import { Thrush_area_Data } from '../User Coustomization Portion/Thrush_area_Data'
+import photo from "../Image Components/Decoretion Images/pexels-fauxels-3183171.jpg"
 
 const Projects = () => {
   return (

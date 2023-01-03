@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousal from '../Components/Carousal'
 import Notice_Card from '../Components/Notice_Card'
-import { Notice_Data } from '../Components/Notice_Data'
+import { Notice_Data } from '../User Coustomization Portion/Notice_Data'
 import Project_Cards from '../Components/Project_Cards'
-import { Project_Data } from '../Components/Project_Data'
+import { Project_Data } from '../User Coustomization Portion/Project_Data'
 const Home = ({ setTemp }) => {
   let index = Notice_Data.length;
   return (

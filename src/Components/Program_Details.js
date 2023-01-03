@@ -1,5 +1,5 @@
 import React from 'react'
-import { Course } from './Course'
+import { Course } from '../User Coustomization Portion/Course'
 import photo from '../Image Components/All_India_Council_for_Technical_Education_logo.png'
 import { useNavigate } from 'react-router-dom'
 
@@ -37,11 +37,14 @@ const Program_Details = ({ sigma, setTemp }) => {
             <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "space-between" }}>
               {
                 Course[sigma - 1].teacher.map(x =>
-                  <span>
-
-                    <p>{x.namea}<br />
-                      {x.designation}</p>
-                  </span>
+                  <div className='fa-div'>
+                    <div>
+                      <img src={x.fa_img} className="fa-icon" />
+                    </div>
+                    <div>
+                      <p>{x.namea}<br />{x.designation}</p>
+                    </div>
+                  </div>
                 )
               }
             </div>

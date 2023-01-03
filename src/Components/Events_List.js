@@ -1,7 +1,7 @@
 import React from 'react'
-import { Webiner } from './Webiner'
-import {Fdp} from './Fdp'
-import photo from '../Image Components/austin-distel-Imc-IoZDMXc-unsplash.jpg'
+import { Webiner } from '../User Coustomization Portion/Webiner'
+import {Fdp} from '../User Coustomization Portion/Fdp'
+import photo from '../Image Components/Decoretion Images/austin-distel-Imc-IoZDMXc-unsplash.jpg'
 const Events_List = ({ setTempa }) => {
     return (
         <>

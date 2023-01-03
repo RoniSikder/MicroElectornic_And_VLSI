@@ -1,6 +1,6 @@
 import React from 'react'
-import { Faculty_data } from './Faculty_data'
-import photo from '../Image Components/kelly-sikkema--BwtFJgaUho-unsplash.jpg'
+import { Faculty_data } from '../User Coustomization Portion/Faculty_data'
+import photo from '../Image Components/Decoretion Images/kelly-sikkema--BwtFJgaUho-unsplash.jpg'
 import { useNavigate } from 'react-router-dom'
 
 const Faculty_list = ({ setId }) => {

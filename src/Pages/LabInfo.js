@@ -1,5 +1,5 @@
 import React from 'react'
-import { labData } from '../Components/labData'
+import { labData } from '../User Coustomization Portion/labData'
 import Left_Labcard from '../Components/Left_Labcard'
 import Right_labcard from '../Components/Right_labcard'
 

@@ -81,3 +81,39 @@ a {
     width: 100vw;
     height: 70vh;
 }
+
+.texta h1{
+    font-family: Kanit, sans-serif;
+    color: white;
+
+}
+.fa-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.fa-div{
+    display: flex;
+    width: 50%;
+    margin: 10px 0px;
+}
+
+.fa-div p{
+    margin: 10px;
+}
+
+.you{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.you h4{
+    font-family: Kanit, sans-serif;
+    color: black;
+    font-size: 40px;
+    margin: 20px 0px;
+}

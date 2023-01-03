@@ -1,11 +1,11 @@
-import photo1 from '../Image Components/Amitabha Sinha.png'
-import photo2 from '../Image Components/Madhumita Das.png'
-import photo3 from '../Image Components/Dr .Mihir Mahata.png'
-import photo4 from '../Image Components/Sabyasachi Sen.png'
-import photo5 from '../Image Components/Sowvik Dey.png'
-import photo6 from '../Image Components/Dr. Ria Bose.png'
-import photo7 from '../Image Components/Tania Das.png'
-import photo8 from '../Image Components/Mrs. Chumki Das.jpeg'
+import photo1 from '../Image Components/Faculty Pictures/Amitabha Sinha.png'
+import photo2 from '../Image Components/Faculty Pictures/Madhumita Das.png'
+import photo3 from '../Image Components/Faculty Pictures/Dr .Mihir Mahata.png'
+import photo4 from '../Image Components/Faculty Pictures/Sabyasachi Sen.png'
+import photo5 from '../Image Components/Faculty Pictures/Sowvik Dey.png'
+import photo6 from '../Image Components/Faculty Pictures/Dr. Ria Bose.png'
+import photo7 from '../Image Components/Faculty Pictures/Tania Das.png'
+import photo8 from '../Image Components/Faculty Pictures/Mrs. Chumki Das.jpeg'
 
 export const Faculty_data = [
     {

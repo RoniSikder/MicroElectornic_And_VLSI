@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../Image Components/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg'
+import photo from '../Image Components/Decoretion Images/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg'
 const About = () => {
     return (
         <>

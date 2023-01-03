@@ -1,5 +1,5 @@
 import React from 'react'
-import { Research_Area } from './Research_Area'
+import { Research_Area } from '../User Coustomization Portion/Research_Area'
 
 const Oppertunity = () => {
     return (
