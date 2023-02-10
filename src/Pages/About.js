@@ -16,12 +16,23 @@ const About = () => {
                     <h5 style={{ color: "#FEE715FF", fontFamily: "'Kanit', sans-serif" }}>About</h5>
                     <div style={{ borderBottom: "2px solid #FEE715FF" }}></div>
                     <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Depertment</h2>
-                    <div style={{ display: "flex",justifyContent:"space-between",gap:"10px"}}>
-                        <div style={{width:"50%"}}>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium consectetur fugit, autem corrupti quibusdam quas quis amet distinctio beatae commodi asperiores, impedit sed corporis velit! Culpa soluta vero dolor aliquid debitis quasi odio, similique nobis fugiat! Tempora, voluptatem sit, commodi inventore totam dignissimos esse quisquam aliquam accusantium libero velit.</p>
+                    <div style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
+                        <div style={{ width: "50%" }}>
+                            <p>
+                                The Department of Microelectronics and VLSI Technology envisions to be a leader in
+                                providing state of the art education through excellence in teaching, training, and research in
+                                contemporary areas of Microelectronics, VLSI Design and Embedded Systems as well as it
+                                aspires to meet the global and socio- economic challenges of the state as well as country. The
+                                Department is one of the Departments of significance in MAKAUT under the School of
+                                Engineering Science. The Department offers AICTE-approved M. Tech programmes in
+                                Microelectronics and VLSI Technology and Embedded Systems and VLSI Design. The
+                                Department has well-qualified and experienced faculties and good laboratory facilities with
+                                state-of-the-art equipment. The Department has quite strong interaction with several reputed
+                                industries and academics and is currently executing several R&amp;D projects.
+                            </p>
                         </div>
-                        <div style={{width:"50%"}}>
-                            <iframe style={{height:'450px',width:'100%',borderRadius:"10px"}} src="https://www.youtube.com/embed/P3LQK3B7LCg?start=68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div style={{ width: "50%" }}>
+                            <iframe style={{ height: '450px', width: '100%', borderRadius: "10px" }} src="https://www.youtube.com/embed/P3LQK3B7LCg?start=68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>

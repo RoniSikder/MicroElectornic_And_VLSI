@@ -16,8 +16,8 @@ export const Course = [
         name: "M.Tech in Embedded Systems and VLSI Design",
         imga: image2,
         syllebus: "",
-        intro: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis? Eius nisi in dolores assumenda animi libero ipsam dolorem molestias! Necessitatibus voluptatum architecto, aut quis sapiente voluptatem sit sed accusantium! intro:",
-        phone: [
+        intro: "M. Tech program in VLSI Design and Embedded Systems covers the fundamentals and engineering aspects of designing and developing IC-based systems. In this course, the students will be able to learn and explore CMOS VLSI Design, Advanced Embedded Systems, VLSI Design and Verification, Design of Analog VLSI circuits, Low-Power VLSI Design, several CAD tools (Xilinx, Cadence etc.), hardware description languages to design the logic of fundamental building blocks as well as the entire system of VLSI Circuits. The students pursuing the course may find opportunities to choose from amongst the sectors of research and development, innovation sectors, VLSI industry and communication sector.",
+         phone: [
             "8116384379",
             "7044730650",
             "9883260106"
@@ -75,7 +75,7 @@ export const Course = [
         name: "M.Tech in Microelectronics and VLSI Technology",
         imga: image1,
         syllebus: "",
-        intro: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis? Eius nisi in dolores assumenda animi libero ipsam dolorem molestias! Necessitatibus voluptatum architecto, aut quis sapiente voluptatem sit sed accusantium! intro:",
+        intro: "M. Tech program in Microelectronics and VLSI Technology helps students to acquire skill in the design, fabrication and testing of microelectronic and VLSI devices. This cutting-edge programme is an excellent platform for further research in the Nano group and the VLSI Design and Devices group. Besides, the students will be exposed to several aspects of technology such as integrated microelectronics device processing, integrated circuit design, advanced devices such as FinFETs, Tunnel FET, Single Electron Transistor, etc. This programme provides students with proper skills and knowledge, thus, make them to perform efficiently and independently in the VLSI industry.",
         phone: [
             "8116384379",
             "7044730650",

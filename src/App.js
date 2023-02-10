@@ -25,12 +25,12 @@ function App() {
   id !== null ? fac = id : fac = fac;
   return (
     <>
-      <div className="hide">
+      <span className="hide">
         <Navbar />
-      </div>
-      <div className="seek">
-        <Mob_Navbar/>
-      </div>
+      </span>
+      <span className="seek">
+        <Mob_Navbar />
+      </span>
       <div style={{ backgroundColor: "#00203FFF", color: "#ADEFD1FF", fontFamily: "'Comfortaa', cursive" }}>
         <Routes>
           <Route path="" element={<Home />} />
