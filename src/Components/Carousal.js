@@ -20,10 +20,10 @@ const Carousal = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={Image1} className="d-block w-100" alt="..." style={{ filter: "brightness(70%) opacity(90%)", backgroundColor: "white" }} />
-                        <div className="carousel-caption" style={{ textAlign: "left", fontFamily: "'Yeseva One', cursive", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                        <div className="carousel-caption">
                             <h1 style={{ color: "white", fontSize: '50px' }}>Welcome To</h1>
-                            <h1 style={{ color: "#adefd1ff", fontSize: '50px' }}>The Depertment of</h1>
-                            <h1 style={{ color: "white", fontSize: '50px' }}>Microelectronic And VLSI</h1>
+                            <h1 style={{ color: "#adefd1ff", fontSize: '50px' }}>The School of</h1>
+                            <h1 style={{ color: "white", fontSize: '50px' }}>Engineering Science And</h1>
                             <h1 style={{ color: "white", fontSize: '50px' }}>Technology</h1>
                         </div>
                     </div>

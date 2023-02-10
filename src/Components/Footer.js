@@ -25,7 +25,7 @@ const Footer = () => {
                         </svg> E-mail Us
                     </h3>
                     <p>
-                        Example@gmail.com
+                        makaut.mvt@gmail.com
                     </p>
                 </div>
                 <div>
@@ -65,42 +65,42 @@ const Footer = () => {
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <div style={{ listStyle: "none" }}>
                             <li>
-                                <a href="https://makaut.mastersofterp.in/" target="_blank">ERP</a>     
+                                <a href="https://makaut.mastersofterp.in/" target="_blank">ERP</a>
                             </li>
                             <li>
                                 <a href="https://makaut.wb.gov.in/view/makaut_landing.aspx" target="_blank">
                                     Migration
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://makautwb.in.net/tnd/" target="_blank">
                                     Transcript
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://www.makautwb.ac.in/page.php?id=350" target="_blank">
                                     Caution Money
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://www.makautwb.ac.in/page.php?id=350" target="_blank">
                                     Clearance From
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://makautwb.ac.in/page.php?id=229" target="_blank">
                                     Academic Calander
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://www.makautwb.ac.in/page.php?id=215" target="_blank">
                                     Hostel
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://www.makautwb.ac.in/page.php?id=214" target="_blank">
                                     Placement
-                                    </a>
+                                </a>
                             </li>
 
                         </div>
@@ -113,17 +113,17 @@ const Footer = () => {
                             <li>
                                 <a href="http://makautexam.net/" target="_blank">
                                     Makaut Exam Cell
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://www.makautwb.ac.in/page.php?id=232" target="_blank">
                                     University Library
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
                                     Tech News
-                                    </a>
+                                </a>
                             </li>
                             <li>
                                 <a className="dropdown-item" target="_blank" href="https://makautwb.ac.in/page.php?id=221">  Scholership Portal</a>

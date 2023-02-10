@@ -16,7 +16,7 @@ const Notice_List = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{ display: "flex", justifyContent: "center", flexFlow: "wrap" }}>
+                <div style={{ display: "flex", justifyContent: "center", flexFlow: "wrap"}}>
                     {
                         Notice_Data.map(x =>
                             <div className="card text-center" style={{ width: "30rem", margin: "2%" }}>
