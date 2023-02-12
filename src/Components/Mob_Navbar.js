@@ -9,11 +9,24 @@ const Mob_Navbar = () => {
     };
     return (
         <>
+            <nav className="navbar sticky-top navbar-light bg-light" style={{ fontFamily: "'Righteous', cursive", top: "0px" }}>
+                <div className="container-fluid" style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
+                    <div style={{ display: "flex", gap: "20px", width: "60%" }}>
+                        <img src={photo} style={{ width: "5rem" }} />
+                        <div style={{ border: "none", borderLeft: "5px solid black", width: "5px" }}></div>
+                        <div>
+                            <Link className="navbar-brand" to="/" style={{ fontSize: "3vw" }}>  SCHOOL OF<br />    ENGINEERING SCIENCE AND <br /> TECHNOLOGY</Link>
+                        </div>
+                    </div>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
             <div className="collapse" id="navbarToggleExternalContent">
                 <div className="bg-light p-4">
                     <div className="navbar-brand" id="navbarNav" style={{ width: "60%" }}>
                         <ul className="navbar-nav d-flex justify-content-between">
-
                             <Link className="nav-link" to="/">Home</Link>
                             <Link className="nav-link" to="/about">About</Link>
                             <li>
@@ -63,20 +76,6 @@ const Mob_Navbar = () => {
 
                 </div>
             </div>
-            <nav className="navbar sticky-top navbar-light bg-light" style={{ fontFamily: "'Righteous', cursive",top:"0px" }}>
-                <div className="container-fluid" style={{display:"flex",flexDirection:"row", gap:"20px"}}>
-                    <div style={{ display: "flex", gap: "20px",width:"60%" }}>
-                        <img src={photo} style={{ width: "5rem" }} />
-                        <div style={{ border: "none", borderLeft: "5px solid black", width: "5px" }}></div>
-                        <div style={{fontSize:"10px"}}>
-                            <Link className="navbar-brand" to="/">  SCHOOL OF<br />    ENGINEERING SCIENCE AND <br /> TECHNOLOGY</Link>
-                        </div>
-                    </div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav>
         </>
     )
 }
