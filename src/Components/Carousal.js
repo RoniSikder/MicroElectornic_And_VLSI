@@ -23,8 +23,7 @@ const Carousal = () => {
                         <div className="carousel-caption">
                             <h1 style={{ color: "white" }}>Welcome To</h1>
                             <h1 style={{ color: "#adefd1ff" }}>The School of</h1>
-                            <h1 style={{ color: "white" }}>Engineering Science And</h1>
-                            <h1 style={{ color: "white" }}>Technology</h1>
+                            <h1 style={{ color: "white" }}>Department of Microelectronics and VLSI</h1>
                         </div>
                     </div>
                     <div className="carousel-item">

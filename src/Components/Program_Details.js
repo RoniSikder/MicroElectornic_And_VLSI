@@ -31,7 +31,7 @@ const Program_Details = ({ sigma, setTemp }) => {
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>
-                Instructors
+                Faculty Members
               </h3>
             </div>
             <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "space-between" }}>
