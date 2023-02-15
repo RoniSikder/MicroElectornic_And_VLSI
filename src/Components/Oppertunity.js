@@ -5,7 +5,7 @@ const Oppertunity = () => {
     return (
         <>
             <div className="oppertunity">
-                <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Possible Research Carrier Fields</h2>
+                <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Research Scope</h2>
                 <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "center" }}>
                     {
                         Research_Area.map(x =>
