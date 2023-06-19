@@ -2,7 +2,7 @@ import React from 'react'
 // import '../CSS Components/Navbar.css'
 import photo from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo.jpg'
 import Magazin from '../Image Components/Magazin.pdf'
-import { Link, useResolvedPath, useMatch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const openInNewTab = url => {
@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light" style={{ fontFamily: "'Righteous', cursive", Top: "0px" }}>
                 <div className="container-fluid">
                     <div style={{ display: "flex", gap: "20px" }}>
-                        <img src={photo} style={{ width: "75px" }} />
+                        <img src={photo} style={{ width: "75px" }} alt=''/>
                         <div style={{ border: "none", borderLeft: "5px solid black", width: "5px" }}></div>
                         <div>
                             <Link className="navbar-brand" to="/">  SCHOOL OF<br />    ENGINEERING SCIENCE AND <br /> TECHNOLOGY</Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
                             </li>
                             <Link className="nav-link" to="/program">Programs</Link >
                             <Link className="nav-link" to="/events">Events</Link>
-                            <Link className="nav-link" to="/faculty">Faculty</Link>
+                            <Link className="nav-link" to="/faculty">Members</Link>
                             <li>
                                 <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                                     <ul className="navbar-nav">

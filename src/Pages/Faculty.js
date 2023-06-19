@@ -1,12 +1,10 @@
 import React from 'react'
-import { useState } from 'react'
-import Faculty_Details from '../Components/Faculty_Details'
-import Faculty_list from '../Components/Faculty_list'
+import FacultyList from '../Components/Faculty_list'
 
 const Faculty = ({setId}) => {
     return (
         <>
-        <Faculty_list setId={setId}/>
+        <FacultyList setId={setId}/>
         </>
     )
 }

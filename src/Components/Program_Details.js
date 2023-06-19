@@ -3,8 +3,9 @@ import { Course } from '../User Coustomization Portion/Course'
 import photo from '../Image Components/All_India_Council_for_Technical_Education_logo.png'
 import { useNavigate } from 'react-router-dom'
 
-const Program_Details = ({ sigma, setTemp }) => {
+const Program_Details = () => {
   let navigation = useNavigate()
+  const sigma = sessionStorage.getItem("Course_Id")
   return (
     <>
       <div style={{ padding: "20px" }}>

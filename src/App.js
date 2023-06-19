@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -19,10 +18,6 @@ import Mob_Navbar from "./Components/Mob_Navbar";
 
 
 function App() {
-  let [sigma, setSigma] = useState(null)
-  let fac = null;
-  let [id, setId] = useState(fac)
-  id !== null ? fac = id : fac = fac;
   return (
     <>
       <span className="hide">
@@ -36,10 +31,10 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/program" element={<Programs setSigma={setSigma} />} />
-          <Route path="/program_details" element={<Program_Details sigma={sigma} />} />
-          <Route path="/faculty" element={<Faculty setId={setId} />} />
-          <Route path="/faculty_details" element={<Faculty_Details id={fac} />} />
+          <Route path="/program" element={<Programs />} />
+          <Route path="/program_details" element={<Program_Details />} />
+          <Route path="/faculty" element={<Faculty />} />
+          <Route path="/faculty_details" element={<Faculty_Details />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/events" element={<Events />} />
           <Route path="/notice" element={<Notice_List />} />
