@@ -1,9 +1,9 @@
 import React from 'react'
-import { Faculty_data, Stuff_data, Member_data } from '../User Coustomization Portion/Faculty_data'
+import { Stuff_data } from '../User Coustomization Portion/Faculty_data'
 import photo from '../Image Components/Decoretion Images/kelly-sikkema--BwtFJgaUho-unsplash.jpg'
 import { useNavigate } from 'react-router-dom'
 
-const Faculty_list = () => {
+const Staff_List = () => {
     let navigation = useNavigate()
     const data = (type, value) => {
         console.log(value, type)
@@ -17,15 +17,15 @@ const Faculty_list = () => {
                 <div className="card text-bg-dark">
                     <img src={photo} className="card-img" alt="..." style={{ height: "300px", opacity: "30%" }} />
                     <div className="card-img-overlay">
-                        <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Faculty</h1>
+                        <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Staffs</h1>
                     </div>
                 </div>
             </div>
             <div style={{ padding: "20px 40px" }}>
-                <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Faculty</h2>
+                <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Staff</h2>
                 <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "space-around", borderTop: "5px solid ", padding: "20px" }}>
                     {
-                        Faculty_data.map(x =>
+                        Stuff_data.map(x =>
                             <div className="card mb-3" style={{ maxWidth: "600px", color: 'black' }}>
                                 <div className="row g-0">
                                     <div className="col-md-4">
@@ -45,8 +45,9 @@ const Faculty_list = () => {
                     }
                 </div>
             </div>
+
         </>
     )
 }
 
-export default Faculty_list
+export default Staff_List

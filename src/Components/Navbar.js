@@ -32,8 +32,8 @@ const Navbar = () => {
                                             <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Facility
                                             </Link>
-                                            <ul className="dropdown-menu dropdown-menu-dark">
-                                                <li><Link className="dropdown-item" to="/labData">Lab Facility</Link></li>
+                                            <ul className="dropdown-menu dropdown-menu">
+                                                <li><Link className="dropdown-item" to="/labData">Laboratory Facility</Link></li>
                                                 <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makaut-opac.libcarecloud.com/")}>Libray Facility</button></li>
                                                 <li><Link className="dropdown-item" to="/underConstruction">Classroom Facility</Link></li>
                                             </ul>
@@ -43,7 +43,22 @@ const Navbar = () => {
                             </li>
                             <Link className="nav-link" to="/program">Programs</Link >
                             <Link className="nav-link" to="/events">Events</Link>
-                            <Link className="nav-link" to="/faculty">Members</Link>
+                            <li>
+                                <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                    <ul className="navbar-nav">
+                                        <li className="nav-item dropdown">
+                                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Members
+                                            </Link>
+                                            <ul className="dropdown-menu dropdown-menu">
+                                                <li><Link className="dropdown-item" to="/faculty">Faculty</Link></li>
+                                                <li><Link className="dropdown-item" to="/Staffs">Staff</Link></li>
+                                                <li><Link className="dropdown-item" to="/underConstruction">Alumni</Link></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li>
                                 <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                                     <ul className="navbar-nav">
@@ -51,7 +66,7 @@ const Navbar = () => {
                                             <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Activity
                                             </Link>
-                                            <ul className="dropdown-menu dropdown-menu-dark">
+                                            <ul className="dropdown-menu dropdown-menu">
                                                 <li><Link className="dropdown-item" to="/projects">Projects</Link></li>
                                                 <li><Link className="dropdown-item" to="/oppertunity">Opportunitie</Link></li>
                                                 <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makautwb.ac.in/page.php?id=214")}>Placement</button></li>

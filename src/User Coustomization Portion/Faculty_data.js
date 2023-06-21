@@ -94,13 +94,11 @@ export const Faculty_data = [
             " Apurba Chakraborty, Saptarsi Ghosh, Partha Mukhopadhyay, Sanjay K Jana, Syed Mukulika Dinara, Ankush Bag, Mihir K. Mahata, Rahul Kumar, Subhashis Das, Palash Das, and Dhrubes Biswas, “Reverse Bias Leakage Current Mechanism of AlGaN/InGaN/GaN Heterostructure”, Electron. Mater. Lett., Vol. 12, No. 2 (2016). pp. 232-236, DOI: 10.1007/s13391-015-5249-9.",
             " Soumyadip Chatterjee & Mihir Kumar Mahata, “Unexpected two-step response in AlGaAs/GaAs heterostructure-based SBD”, International Journal of Electronics Letters, Vol. 8, Issue 2, 2020, PP. 223-231, ISSN: 2168-1724 (Print) 2168-1732 (Online), 2019. DOI: 10.1080/21681724.2019.1584916.",
         ]
-    }
-] 
+    },
 
-export const Stuff_data = [
     {
-        id: 1,
-        type:"Stuff",
+        id: 4,
+        type:"Faculty",
         imaga: photo4,
         name: "Sabyasachi Sen",
         designation: "Faculty",
@@ -108,12 +106,12 @@ export const Stuff_data = [
         email: "sabyasachis2004@yahoo.co.in",
         des: " Mr. Sen has pursued his M.Sc. degree in Electronics Science from Electronic Science Department, University of Pune in 2007, M.Tech from Department of Radio Physics & Electronics, University of Calcutta in 2009. Currently he is pursuing Ph.D.(Engg) from Department of Electronics & Electrical Communication Engineering, Indian Institute of Technology, Kharagpur.He has spent almost a year as a lecturer in Electronics & Communication Engineering Department of Guru Nanak Institute of Technology of JIS group. Currently he is serving as an Assistant Professor in the Department of Microelectronics & VLSI Technology of Maulana Abul Kalam Azad University of Technology since August 2019. Earlier he has taught as a guest lecturer in the same Department of MAKAUT.Besides, he has vast experience of teaching several undergraduate & postgraduate courses both theoretical as well as practical during his research period in IIT Kharagpur. Specifically, he has explicit experiences in teaching Technology CAD & various TCAD tools in both M.Tech. theory and practical classes. Apart from these, he has also significant experience in taking laboratory classes on VLSI Technology & several fabrication processes. He has quite extensive experience on device modeling also",
         acc: [
-
+    
         ]
     },
     {
-        id: 2,
-        type:"Stuff",
+        id: 5,
+        type:"Faculty",
         imaga: photo5,
         name: "Sowvik Dey",
         designation: "Faculty",
@@ -131,8 +129,8 @@ export const Stuff_data = [
         ]
     },
     {
-        id: 3,
-        type:"Stuff",
+        id: 6,
+        type:"Faculty",
         imaga: photo6,
         name: "Dr. Ria Bose",
         designation: "Assistant Professor",
@@ -148,25 +146,25 @@ export const Stuff_data = [
             " R. Bose and J. N. Roy (2021), “Three Dimensional channel potential model of a triple gate MOSFET based on conformal mapping technique”, IETE Technical Review, Available: 10.1080/02564602.2021.1903348 ",
             " Ria Bose & J. N. Roy (2021) Analytical 3D Surface Potential Model of a Junction-Based Triple-Gate MOSFET Device, IETE Technical Review, DOI: 10.1080/02564602.2021.1927864"
         ]
-    }
-]
-
-export const Member_data = [
+    },
     {
-        id: 1,
-        type:"Member",
+        id: 7,
+        type:"Faculty",
         imaga: photo7,
-        name: "Ms. Tania Das",
+        name: "Mrs. Tania Das",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
         email: "taniadas53@gmail.com",
         des: "Miss Tania Das has passed M.Tech in microelectronics and VLSI  from Jadavpur University. Miss Das had worked on pH sensor made by suspended gate field effect transistor , Equalizer using Whale optimization algorithm, Microcontroller based Digital Clock using RTC(DS 12887)",
         acc: [
-
+    
         ]
-    },
+    }
+] 
+
+export const Stuff_data = [
     {
-        id: 2,
+        id: 1,
         type:"Member",
         imaga: photo8,
         name: "Mrs. Chumki Das",
@@ -175,7 +173,10 @@ export const Member_data = [
         email: "",
         des: "She has done post-graduation in Microelectronics and VLSI and Technology from MAKAUT and has the responsibility for analyzing, recommending, and coordinating the implementation of ideas practically for ensuring the smooth functioning of departments/laboratories under appropriate guidance.",
         acc: [
-
+    
         ]
     }
+]
+
+export const Member_data = [
 ]

@@ -40,10 +40,19 @@ const Faculty_Details = () => {
                         <div className='fitter'>
                             <div className="nav nav-pills mb-3" id="pills-tab" role="tablist" style={{ textDecoration: "none" }}>
                                 <li className="" role="presentation">
-                                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+                                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">About</button>
                                 </li>
                                 <li className="" role="presentation">
-                                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Accomplishment</button>
+                                    <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Research</button>
+                                </li>
+                                <li className="" role="presentation">
+                                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Publication</button>
+                                </li>
+                                <li className="" role="presentation">
+                                    <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Projects</button>
+                                </li>
+                                <li className="" role="presentation">
+                                    <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Patents</button>
                                 </li>
                             </div>
                             <div className="tab-content scroll" id="pills-tabContent" style={{ height: "350px", overflowY: "scroll" }}>

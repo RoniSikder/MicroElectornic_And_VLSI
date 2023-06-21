@@ -17,7 +17,7 @@ const Projects = () => {
           </div>
         </div>
         <div style={{margin:"0px 30px"}}>
-          <h2 style={{ fontFamily: "'Kanit', sans-serif" ,margin:"20px 5px", color:'white'}}>Projects</h2>
+          <h2 style={{ fontFamily: "'Kanit', sans-serif" ,margin:"20px 5px", color:'white'}}>Sponsored Projects</h2>
           <div style={{ display: "flex", flexFlow: "wrap" }}>
             {Thrush_area_Data.map(x => <Project_Cards name={x.name} />)}
           </div>

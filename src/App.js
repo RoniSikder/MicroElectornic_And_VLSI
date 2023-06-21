@@ -15,6 +15,7 @@ import LabInfo from "./Pages/LabInfo";
 import Incomplete_Page from "./Components/Incomplete_Page";
 import Oppertunity from "./Components/Oppertunity";
 import Mob_Navbar from "./Components/Mob_Navbar";
+import Staff_List from "./Components/Staff_List";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="/program" element={<Programs />} />
           <Route path="/program_details" element={<Program_Details />} />
           <Route path="/faculty" element={<Faculty />} />
+          <Route path="/Staffs" element={<Staff_List/>}/>
           <Route path="/faculty_details" element={<Faculty_Details />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/events" element={<Events />} />

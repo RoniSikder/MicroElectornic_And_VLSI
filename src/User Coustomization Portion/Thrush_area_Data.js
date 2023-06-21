@@ -1,38 +1,20 @@
 export const Thrush_area_Data = [
     {
         id : "0",
-        name:"Photo Voltaic: cell, circuit and system design. ",
-        des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
+        name:"Analog and Digital mix Signal Processor - A novel architecture for signal processing",
+        des:"MeitY vide computer No. 3080449 dated 03.05.2023 and concurrence of JS&FA, Ministry of Electronics & Information Technology vide computer No. 3080449 dated 03.05.2023.",
         img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
     },
     {
         id : "1",
-        name:"Sensor device development and product design.",
+        name:"IoT based smart system design and development for precision farming and technology dissemination among farming community",
         des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
         img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
     },
     {
         id : "2",
-        name:"Mixed signal processor design. ",
-        des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
-        img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
-    },
-    {
-        id : "3",
-        name:"Analog and digital VLSI design. ",
-        des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
-        img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
-    },
-    {
-        id : "4",
-        name:"Advanced semiconductor device modelling, design and development. ",
-        des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
-        img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
-    },
-    {
-        id : "5",
-        name:"Embedded system Design.",
-        des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
+        name:"Optimization of tilt angle of a fixed solar panel based on micro-climatic data of West Bengal. ",
+        des:"Awarded by the DST, Government of West Bengal, for carrying out the Major Research Project for the duration 2018-2021.",
         img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
     }
 ]
