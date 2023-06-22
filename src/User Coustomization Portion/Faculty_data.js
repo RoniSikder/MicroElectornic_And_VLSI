@@ -12,6 +12,9 @@ export const Faculty_data = [
         id: 1,
         type:"Faculty",
         imaga: photo1,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Dr. Amitabha Sinha",
         designation: "Adjunct Faculty",
         department: "Microelectronics and VLSI Technology",
@@ -61,6 +64,9 @@ export const Faculty_data = [
         id: 2,
         type:"Faculty",
         imaga: photo2,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Dr. Madhumita Das Sarkar",
         designation: "Associate Professor",
         department: "Microelectronics and VLSI Technology",
@@ -79,6 +85,12 @@ export const Faculty_data = [
         id: 3,
         type:"Faculty",
         imaga: photo3,
+        projects:[
+            "Analog and Digital mix Signal Processor - A novel architecture for signal processing",
+            "IoT based smart system design and development for precision farming and technology dissemination among farming community"
+        ],
+        patents:[],
+        research:[],
         name: "Dr. Mihir Kumar Mahata",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -100,6 +112,9 @@ export const Faculty_data = [
         id: 4,
         type:"Faculty",
         imaga: photo4,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Sabyasachi Sen",
         designation: "Faculty",
         department: "Microelectronics and VLSI Technology",
@@ -113,6 +128,9 @@ export const Faculty_data = [
         id: 5,
         type:"Faculty",
         imaga: photo5,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Sowvik Dey",
         designation: "Faculty",
         department: "Microelectronics and VLSI Technology",
@@ -132,6 +150,9 @@ export const Faculty_data = [
         id: 6,
         type:"Faculty",
         imaga: photo6,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Dr. Ria Bose",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -151,6 +172,9 @@ export const Faculty_data = [
         id: 7,
         type:"Faculty",
         imaga: photo7,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Mrs. Tania Das",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -165,8 +189,11 @@ export const Faculty_data = [
 export const Stuff_data = [
     {
         id: 1,
-        type:"Member",
+        type:"Stuff",
         imaga: photo8,
+        projects:[],
+        patents:[],
+        research:[],
         name: "Mrs. Chumki Das",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -176,7 +203,4 @@ export const Stuff_data = [
     
         ]
     }
-]
-
-export const Member_data = [
 ]
