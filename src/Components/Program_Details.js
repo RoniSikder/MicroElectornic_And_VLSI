@@ -28,7 +28,7 @@ const Program_Details = () => {
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Syllabus</h3>
-              <p><a href={Course[sigma - 1].syllebus} style={{ color: "red" }}>Click me</a> to Download the Syllebus</p>
+              <p><a href={Course[sigma - 1].syllebus} style={{ color: "red" }} target="_blank">Click me</a> to Download the Syllebus</p>
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>

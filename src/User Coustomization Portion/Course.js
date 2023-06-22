@@ -10,12 +10,15 @@ import teacher6 from "../Image Components/Faculty Pictures/Sowvik Dey.png"
 import teacher7 from "../Image Components/Faculty Pictures/Tania Das.png"
 import teacher8 from "../Image Components/Faculty Pictures/Mrs. Chumki Das.jpeg"
 
+import embedded from "../Image Components/Embedded Systems.pdf"
+import micro from "../Image Components/Microelectronics.pdf"
+
 export const Course = [
     {
         id: 1,
         name: "M.Tech in Embedded Systems and VLSI Design",
         imga: image2,
-        syllebus: "",
+        syllebus: embedded,
         intro: "M. Tech program in VLSI Design and Embedded Systems covers the fundamentals and engineering aspects of designing and developing IC-based systems. In this course, the students will be able to learn and explore CMOS VLSI Design, Advanced Embedded Systems, VLSI Design and Verification, Design of Analog VLSI circuits, Low-Power VLSI Design, several CAD tools (Xilinx, Cadence etc.), hardware description languages to design the logic of fundamental building blocks as well as the entire system of VLSI Circuits. The students pursuing the course may find opportunities to choose from amongst the sectors of research and development, innovation sectors, VLSI industry and communication sector.",
          phone: [
             "8116384379",
@@ -74,7 +77,7 @@ export const Course = [
         id: 2,
         name: "M.Tech in Microelectronics and VLSI Technology",
         imga: image1,
-        syllebus: "",
+        syllebus: micro,
         intro: "M. Tech program in Microelectronics and VLSI Technology helps students to acquire skill in the design, fabrication and testing of microelectronic and VLSI devices. This cutting-edge programme is an excellent platform for further research in the Nano group and the VLSI Design and Devices group. Besides, the students will be exposed to several aspects of technology such as integrated microelectronics device processing, integrated circuit design, advanced devices such as FinFETs, Tunnel FET, Single Electron Transistor, etc. This programme provides students with proper skills and knowledge, thus, make them to perform efficiently and independently in the VLSI industry.",
         phone: [
             "8116384379",

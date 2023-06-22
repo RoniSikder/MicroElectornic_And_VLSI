@@ -240,7 +240,7 @@ export const Stuff_data = [
         designation: "Academic Assistant",
         department: "Microelectronics and VLSI Technology",
         email: "debnath07.ranjan@gmail.com",
-        des: "Mr. Debnath has worked as a Lecturer (Department of Electronics and Telecommunication Engg) at Elite Polytechnic Institute , Mogra, Hooghly  and JIS School of Polytechnic, Kalyani, Nadia.  Also worked as a Programmer Analyst            ( Trainee) at Excelacom Technologies , Siruseri I.T Park, Chennai, Tamilnadu and As a Service Engineer at Hinditron Services Private limited , Kolkata.  Mr. Debnath has completed his B.Tech Degree From JIS College of Engineering, Kalyani , Under W.B.U.T  and possesses an experience of over 11 years in both academics and Industry.",
+        des: "Mr. Debnath has worked as a Lecturer (Department of Electronics and Telecommunication Engg) at Elite Polytechnic Institute , Mogra, Hooghly  and JIS School of Polytechnic, Kalyani, Nadia.  Also worked as a Programmer Analyst ( Trainee) at Excelacom Technologies Pvt Ltd , Siruseri I.T Park, Chennai, Tamilnadu and As a Service Engineer at Hinditron Services Private limited , Kolkata.  Mr. Debnath has completed his B.Tech Degree From JIS College of Engineering, Kalyani , Under W.B.U.T  and possesses an experience of over 11 years in both academics and Industry.",
         acc: [
     
         ]
