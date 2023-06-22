@@ -17,7 +17,6 @@ const Faculty_Details = () => {
             break;
 
     }
-
     return (
         <>
             <div>
@@ -51,12 +50,12 @@ const Faculty_Details = () => {
                                 <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Patents</button>
                             </li>
                         </ul>
-                        <div class="tab-content" id="pills-tabContent" style={{ height: "350px", overflowY: "scroll" }}>
+                        <div class="tab-content scroll" id="pills-tabContent" style={{ height: "350px", overflowY: "scroll" }}>
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">{role[id - 1].des}</div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">{role[id - 1].research}</div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">{role[id - 1].research.map(x => <ul className="research"><li>{x}</li></ul>)}</div>
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">{role[id - 1].acc.map(x => <ul className="accomplishment"><li>{x}</li></ul>)}</div>
-                            <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabindex="0">{role[id - 1].projects}</div>
-                            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">{role[id - 1].patents}</div>
+                            <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabindex="0">{role[id - 1].projects.map(x => <ul className="project"><li>{x}</li></ul>)}</div>
+                            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">{role[id - 1].patents.map(x => <ul className="patents"><li><div>Name : {x.name}</div><div>Inventors : {x.inventors}</div></li></ul>)}</div>
                         </div>
 
 

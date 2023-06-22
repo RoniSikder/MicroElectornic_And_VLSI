@@ -2,13 +2,13 @@ export const Thrush_area_Data = [
     {
         id : "0",
         name:"Analog and Digital mix Signal Processor - A novel architecture for signal processing",
-        des:"MeitY vide computer No. 3080449 dated 03.05.2023 and concurrence of JS&FA, Ministry of Electronics & Information Technology vide computer No. 3080449 dated 03.05.2023.",
+        des:"By MeitY vide computer No. 3080449 dated 03.05.2023 and concurrence of JS&FA, Ministry of Electronics & Information Technology vide computer No. 3080449 dated 03.05.2023.",
         img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
     },
     {
         id : "1",
         name:"IoT based smart system design and development for precision farming and technology dissemination among farming community",
-        des:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo dolore, officiis in obcaecati aperiam fugiat ducimus at fugit id.",
+        des:"Funded by C-DAC, Kolkata",
         img:"https://www.swamivivekanandauniversity.ac.in/files/202106112313.jpg"
     },
     {

@@ -6,6 +6,7 @@ import photo5 from '../Image Components/Faculty Pictures/Sowvik Dey.png'
 import photo6 from '../Image Components/Faculty Pictures/Dr. Ria Bose.png'
 import photo7 from '../Image Components/Faculty Pictures/Tania Das.png'
 import photo8 from '../Image Components/Faculty Pictures/Mrs. Chumki Das.jpeg'
+import photo9 from '../Image Components/Faculty Pictures/Ranjan Debnath.jpg'
 
 export const Faculty_data = [
     {
@@ -64,7 +65,9 @@ export const Faculty_data = [
         id: 2,
         type:"Faculty",
         imaga: photo2,
-        projects:[],
+        projects:[
+            "Optimization of tilt angle of a fixed solar panel based on micro-climatic data of West Bengal-Awarded by the DST, Government of West Bengal as the Principal Investigator for the duration 2018-2021 ",
+        ],
         patents:[],
         research:[],
         name: "Dr. Madhumita Das Sarkar",
@@ -86,11 +89,18 @@ export const Faculty_data = [
         type:"Faculty",
         imaga: photo3,
         projects:[
-            "Analog and Digital mix Signal Processor - A novel architecture for signal processing",
-            "IoT based smart system design and development for precision farming and technology dissemination among farming community"
+            "Analog and Digital mix Signal Processor - A novel architecture for signal processing-MeitY vide computer No. 3080449 dated 03.05.2023 and concurrence of JS&FA, Ministry of Electronics & Information Technology vide computer No. 3080449 dated 03.05.2023.",
+            "IoT based smart system design and development for precision farming and technology dissemination among farming community-funded by C-DAC, Kolkata"
         ],
-        patents:[],
-        research:[],
+        patents:[{
+            name:"Analog -Digital signal processor",
+            inventors: "Dr. Mihir Kumar Mahata, Prof. Amitabha Sinha and Mr. Amit Sarkar"
+        }],
+        research:[
+            "Compound semiconductor HEMT devices",
+            "Solar Cell",
+            "Embedded System"
+        ],
         name: "Dr. Mihir Kumar Mahata",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -114,7 +124,13 @@ export const Faculty_data = [
         imaga: photo4,
         projects:[],
         patents:[],
-        research:[],
+        research:[
+            "Designing and fabrication of Tandem, Intermediate Band, Quantum dot and Thin film based solar cells.",
+            "Designing and fabrication of Chemo-resistive, capacitive & Junction Diode Sensors.",
+            "Modelling and Designing of 2D semiconducting material based Advanced semiconductor device like tri-gate sub-micron FinFET, quantum dot & quantum wire HEMT, Tunnel FET etc. using TCAD tool like silvaco ",
+            "Modelling, Designing and Development of single electron transistors (SET) and its application in developing SET based Analog-to-Digital converter to achieve low power and high operating speed ADC.",
+            "Designing and Development of FinFET based Biosensors."
+        ],
         name: "Sabyasachi Sen",
         designation: "Faculty",
         department: "Microelectronics and VLSI Technology",
@@ -130,7 +146,10 @@ export const Faculty_data = [
         imaga: photo5,
         projects:[],
         patents:[],
-        research:[],
+        research:[
+            "Fault Tolerant Memory Systems",
+            "VLSI Design"
+        ],
         name: "Sowvik Dey",
         designation: "Faculty",
         department: "Microelectronics and VLSI Technology",
@@ -144,6 +163,9 @@ export const Faculty_data = [
             " Somak Das, Sudip Roy, Sowvik Dey, “Activation of Control Pins for Routing of Test Droplets within a Bi-Partitioned Digital Microfluidic Biochip”, Proc. of IEEE Conf. on ICACC, Kochi, Kerala, 2014. ISBN No. 978-1-4799-4363-0/14",
             " Somak Das, Sowvik Dey, “FPGA Based Design of a Fine-Grained Fault Tolerant Interleaved Memory”, Proc. of IEEE Conf. on ICACCCT, Ramanathapuram, Tamilnadu, 2014. ISBN No. 978-1-4799-3914-5/14",
             " Somak Das, Sowvik Dey, “Exploiting Fault Tolerance within Cache Memory Structures”, Proc. of IEEE Conf. on ICHPCA, Bhubaneswar, Orissa, 2014. ISBN No. 978-1-4799-5957-0/14",
+            " S. Dey, A. Patra and A. Karmakar,FPGA-based Design of a Fault Injector for Binarized Convolutional Neural Network, 2023 IEEE Devices for Integrated Circuit (DevIC), Kalyani, India, 2023, pp. 496-500, doi: 10.1109/DevIC57758.2023.10134830.",
+            " S. Dey, C. Chakraborty, S. Jana, M. K. Mahata and A. Karmakar, A Novel Architecture of a fault-tolerant Memory System based on Missing Data Imputation, 2022 IEEE International Conference of Electron Devices Society Kolkata Chapter (EDKCON), Kolkata, India, 2022, pp. 329-333, doi: 10.1109/EDKCON56221.2022.10032852",
+            " Dey, Sowvik & Mahata, Mihir & Karmakar, Amiya. (2022). An FPGA-Based Design of a Fault-Tolerant Shared Memory Structure. International Journal of Electronics, Communications, and Measurement Engineering. 11. 1-11. 10.4018/IJECME.312258."
         ]
     },
     {
@@ -152,7 +174,9 @@ export const Faculty_data = [
         imaga: photo6,
         projects:[],
         patents:[],
-        research:[],
+        research:[
+            "Compact modelling of advance MOSFET devices for their implementation in application based Circuits"
+        ],
         name: "Dr. Ria Bose",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -174,7 +198,9 @@ export const Faculty_data = [
         imaga: photo7,
         projects:[],
         patents:[],
-        research:[],
+        research:[
+            "Advanced Semiconductor device simulation and Modelling"
+        ],
         name: "Mrs. Tania Das",
         designation: "Assistant Professor",
         department: "Microelectronics and VLSI Technology",
@@ -195,10 +221,26 @@ export const Stuff_data = [
         patents:[],
         research:[],
         name: "Mrs. Chumki Das",
-        designation: "Assistant Professor",
+        designation: "Technical Assistant",
         department: "Microelectronics and VLSI Technology",
         email: "",
         des: "She has done post-graduation in Microelectronics and VLSI and Technology from MAKAUT and has the responsibility for analyzing, recommending, and coordinating the implementation of ideas practically for ensuring the smooth functioning of departments/laboratories under appropriate guidance.",
+        acc: [
+    
+        ]
+    },
+    {
+        id: 2,
+        type:"Stuff",
+        imaga: photo9,
+        projects:[],
+        patents:[],
+        research:[],
+        name: "Ranjan Debnath",
+        designation: "Academic Assistant",
+        department: "Microelectronics and VLSI Technology",
+        email: "debnath07.ranjan@gmail.com",
+        des: "Mr. Debnath has worked as a Lecturer (Department of Electronics and Telecommunication Engg) at Elite Polytechnic Institute , Mogra, Hooghly  and JIS School of Polytechnic, Kalyani, Nadia.  Also worked as a Programmer Analyst            ( Trainee) at Excelacom Technologies , Siruseri I.T Park, Chennai, Tamilnadu and As a Service Engineer at Hinditron Services Private limited , Kolkata.  Mr. Debnath has completed his B.Tech Degree From JIS College of Engineering, Kalyani , Under W.B.U.T  and possesses an experience of over 11 years in both academics and Industry.",
         acc: [
     
         ]

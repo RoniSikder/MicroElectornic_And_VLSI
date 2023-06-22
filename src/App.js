@@ -16,6 +16,7 @@ import Incomplete_Page from "./Components/Incomplete_Page";
 import Oppertunity from "./Components/Oppertunity";
 import Mob_Navbar from "./Components/Mob_Navbar";
 import Staff_List from "./Components/Staff_List";
+import Alumni_List from "./Components/Alumni_List";
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
           <Route path="/program" element={<Programs />} />
           <Route path="/program_details" element={<Program_Details />} />
           <Route path="/faculty" element={<Faculty />} />
-          <Route path="/Staffs" element={<Staff_List/>}/>
+          <Route path="/staffs" element={<Staff_List/>}/>
           <Route path="/faculty_details" element={<Faculty_Details />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/events" element={<Events />} />
@@ -43,6 +44,7 @@ function App() {
           <Route path="/labData" element={<LabInfo />} />
           <Route path="/underConstruction" element={<Incomplete_Page />} />
           <Route path="/oppertunity" element={<Oppertunity />} />
+          <Route path="/alumni" element={<Alumni_List/>}/>
         </Routes>
       </div>
       <Footer />

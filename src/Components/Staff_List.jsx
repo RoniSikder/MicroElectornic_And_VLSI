@@ -22,8 +22,7 @@ const Staff_List = () => {
                 </div>
             </div>
             <div style={{ padding: "20px 40px" }}>
-                <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Staff</h2>
-                <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "space-around", borderTop: "5px solid ", padding: "20px" }}>
+                <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "space-around", padding: "20px" }}>
                     {
                         Stuff_data.map(x =>
                             <div className="card mb-3" style={{ maxWidth: "600px", color: 'black' }}>

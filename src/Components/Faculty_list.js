@@ -22,8 +22,7 @@ const Faculty_list = () => {
                 </div>
             </div>
             <div style={{ padding: "20px 40px" }}>
-                <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Faculty</h2>
-                <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "space-around", borderTop: "5px solid ", padding: "20px" }}>
+                <div style={{ display: "flex", gap: "20px", flexFlow: "wrap", justifyContent: "space-around", padding: "20px" }}>
                     {
                         Faculty_data.map(x =>
                             <div className="card mb-3" style={{ maxWidth: "600px", color: 'black' }}>
