@@ -17,7 +17,7 @@ const Navbar = () => {
                         <img src={photo} style={{ width: "75px" }} alt=''/>
                         <div style={{ border: "none", borderLeft: "5px solid black", width: "5px" }}></div>
                         <div>
-                            <Link className="navbar-brand" to="/">  SCHOOL OF<br />    ENGINEERING SCIENCE AND <br /> TECHNOLOGY</Link>
+                            <Link className="navbar-brand" to="/">  DEPARTMENT OF<br />    MICROELECTRONICS AND <br /> VLSI TECHNOLOGY</Link>
                         </div>
                     </div>
                     <div className="navbar-brand" id="navbarNav" style={{ width: "60%" }}>

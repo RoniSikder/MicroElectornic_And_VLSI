@@ -54,7 +54,16 @@ const Faculty_Details = () => {
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">{role[id - 1].des}</div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">{role[id - 1].research.map(x => <ul className="research"><li>{x}</li></ul>)}</div>
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">{role[id - 1].acc.map(x => <ul className="accomplishment"><li>{x}</li></ul>)}</div>
-                            <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabindex="0">{role[id - 1].projects.map(x => <ul className="project"><li>{x}</li></ul>)}</div>
+                            <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabindex="0">{role[id - 1].projects.map(x =>
+                                <ul className="project">
+                                    <li>
+                                        <div><b>Name of The Project </b>: {x.name}</div>
+                                        <div><b>Funded By</b> : {x.funded_by}</div>
+                                        <div><b>Duration</b> : {x.duration}</div>
+                                        <div><b>Role</b> : {x.role}</div>
+                                    </li>
+                                </ul>)}
+                            </div>
                             <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">{role[id - 1].patents.map(x => <ul className="patents"><li><div>Name : {x.name}</div><div>Inventors : {x.inventors}</div></li></ul>)}</div>
                         </div>
 

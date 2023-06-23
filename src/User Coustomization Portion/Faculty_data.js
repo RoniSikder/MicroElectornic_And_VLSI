@@ -11,11 +11,11 @@ import photo9 from '../Image Components/Faculty Pictures/Ranjan Debnath.jpg'
 export const Faculty_data = [
     {
         id: 1,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo1,
-        projects:[],
-        patents:[],
-        research:[],
+        projects: [],
+        patents: [],
+        research: [],
         name: "Dr. Amitabha Sinha",
         designation: "Adjunct Faculty",
         department: "Microelectronics and VLSI Technology",
@@ -63,13 +63,18 @@ export const Faculty_data = [
     },
     {
         id: 2,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo2,
-        projects:[
-            "Optimization of tilt angle of a fixed solar panel based on micro-climatic data of West Bengal-Awarded by the DST, Government of West Bengal as the Principal Investigator for the duration 2018-2021 ",
+        projects: [
+            {
+                name:"Optimization of tilt angle of a fixed solar panel based on micro-climatic data of West Bengal",
+                funded_by:"Department Of Science & Technology,Government of West Bengal",
+                duration:"4 years",
+                role:"Principal Investigator"
+            }
         ],
-        patents:[],
-        research:[],
+        patents: [],
+        research: [],
         name: "Dr. Madhumita Das Sarkar",
         designation: "Associate Professor",
         department: "Microelectronics and VLSI Technology",
@@ -86,20 +91,30 @@ export const Faculty_data = [
     },
     {
         id: 3,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo3,
-        projects:[
-            "Analog and Digital mix Signal Processor - A novel architecture for signal processing-MeitY vide computer No. 3080449 dated 03.05.2023 and concurrence of JS&FA, Ministry of Electronics & Information Technology vide computer No. 3080449 dated 03.05.2023.",
-            "IoT based smart system design and development for precision farming and technology dissemination among farming community-funded by C-DAC, Kolkata"
+        projects: [{
+            name: "IoT based smart system   design and development for precision farming and technology dissemination among farming community.",
+            funded_by: "Centre for Development of Advanced Computing (C-DAC) kolkata.",
+            duration: "9 months",
+            role: "Chief Investigator"
+        },
+        {
+            name: "Analog Digital Mix Signal Processor - A novel architecture for signal processing.",
+            funded_by: "Ministry of Electronics and Information Technology, Govt. of India.",
+            duration: "5 years",
+            role: "Co-Chief Investigator"
+        }
         ],
-        patents:[{
-            name:"Analog -Digital signal processor",
+        patents: [{
+            name: "Analog -Digital signal processor",
             inventors: "Dr. Mihir Kumar Mahata, Prof. Amitabha Sinha and Mr. Amit Sarkar"
         }],
-        research:[
-            "Compound semiconductor HEMT devices",
-            "Solar Cell",
-            "Embedded System"
+        research: [
+            "Semiconductor Devices",
+            "Analog and Digital VLSI Design",
+            "Low power VLSI Design",
+            "Embedded System Design",
         ],
         name: "Dr. Mihir Kumar Mahata",
         designation: "Assistant Professor",
@@ -107,24 +122,38 @@ export const Faculty_data = [
         email: "mihir.mahata@gmail.com",
         des: "Dr. Mahata has received his Ph.D. degree from Indian Institute of Technology, Kharagpur in 2016. He has Worked as Assistant Professor in the Dept. of Electronics & Telicommunication Engineering, Indian Institute of Engineering Science & Technology, Shibpur , Howrah ,WB, a premier Engineering Institute in India from 2015-2019. Also, he has Industry work experience. He has worked as Executive in Datagen Power Services Pvt. Ltd. from 2007 to 2009. Currently, he is working as Assistant Professor (Stage II), in the Dept. of Microelectronics & VLSI Technology, MAKAUT, WB from 2019 to till date. His research interest includes 1. Emerging Semiconductor Devices (TFET, FinFET, Multi-junction Solar Cells), 2. Analog and Digital VLSI Design and 3. Low power VLSI Design.",
         acc: [
-            " Mihir Kumar Mahata, Saptarsi Ghosh, Sanjay Kumar Jana, Apurba Chakraborty, Ankush Bag, Partha Mukhopadhyay, Rahul Kumar, and Dhrubes Biswas, “Comprehensive strain and band gap analysis of PA-MBE grown AlGaN/GaN heterostructures on sapphire with ultra thin buffer”, AIP Advances, vol. 4, pp. 117-120, Nov. 2014. DOI: http://dx.doi.org/10.1063/1.4902090",
-            " Mihir Kumar Mahata, Saptarsi Ghosh, Subhashis Das, and Dhrubes Biswas, “Universal Band Gap Determination Model for Doped Semiconductor Materials”, ECS Solid State Letters, 4 (12) P98-P101 (2015). DOI: 10.1149/2.0061512ssl",
-            " Rahul Kumar, P. Mukhopadhyay, A. Bag, S. Kr. Jana, A. Chakraborty, S. Das, Mihir Kumar Mahata and D. Biswas, “Comparison of different pathways in metamorphic graded buffers onGaAs substrate: Indium incorporation with surface roughness”, Applied Surface Science Vol. 324, pp. 304–309, (2015). DOI: http://dx.doi.org/10.1016/j.apsusc.2014.10.155",
-            " Ankush Bag, Rahul Kumar, Partha Mukhopadhyay, Mihir K. Mahata, Apurba Chakraborty, Spatarsi Ghosh, Sanjay K. Jana, Dhrubes Biswas, “ Evolution and Analysis of Nitride Surface and Interfaces by Statistical Techniques: A Correlation with RHEED through Kinetic Roughening”, Electron. Mater. Lett., Vol. 11, No. 4 (2015), pp. 707-716. DOI: 10.1007/s13391-015-5129-3",
-            " Sanjay Kr. Jana, Saptarsi Ghosh, Syed Mukulika Dinara, Mihir Mahata, Soumen Das, and Dhrubes Biswas, “Structural, optical, and transport properties of AlGaN/GaN and AlGaN/InGaN heterostructure on sapphire grown by plasma assisted molecular beam epitaxy”, Journal of Vacuum Science & Technology B 33, 041206 (2015). DOI: 10.1116/1.4926968.",
-            " Saptarsi Ghosh, Syed M. Dinara, Mihir Mahata, Subhashis Das, Partha Mukhopadhyay, Sanjay Kumar Jana and Dhrubes Biswas, “On the different origins of electrical parameter degradation in reverse-bias stressed AlGaN/GaN HEMTs”, Phys. Status Solidi A, Vol.213, Issue 6, pp. 1559-1563 (2016). DOI: 10.1002/pssa.201532916.",
-            " Apurba Chakraborty, Saptarsi Ghosh, Partha Mukhopadhyay, Sanjay K Jana, Syed Mukulika Dinara, Ankush Bag, Mihir K. Mahata, Rahul Kumar, Subhashis Das, Palash Das, and Dhrubes Biswas, “Reverse Bias Leakage Current Mechanism of AlGaN/InGaN/GaN Heterostructure”, Electron. Mater. Lett., Vol. 12, No. 2 (2016). pp. 232-236, DOI: 10.1007/s13391-015-5249-9.",
-            " Soumyadip Chatterjee & Mihir Kumar Mahata, “Unexpected two-step response in AlGaAs/GaAs heterostructure-based SBD”, International Journal of Electronics Letters, Vol. 8, Issue 2, 2020, PP. 223-231, ISSN: 2168-1724 (Print) 2168-1732 (Online), 2019. DOI: 10.1080/21681724.2019.1584916.",
+            "Mihir Kumar Mahata, Saptarsi Ghosh, Sanjay Kumar Jana, Apurba Chakraborty, Ankush Bag, Partha Mukhopadhyay, Rahul Kumar, and Dhrubes Biswas, “Comprehensive strain and band gap analysis of PA-MBE grown AlGaN/GaN heterostructures on sapphire with ultra thin buffer”, AIP Advances, vol. 4, pp. 117-120, Nov. 2014. (DOI: http://dx.doi.org/10.1063/1.4902090)",
+            "Mihir Kumar Mahata, Saptarsi Ghosh, Subhashis Das, and Dhrubes Biswas, “Universal Band Gap Determination Model for Doped Semiconductor Materials”, ECS Solid State Letters, 4 (12) P98-P101 (2015).( doi: 10.1149/2.0061512ssl)",
+            "Rahul Kumar, P. Mukhopadhyay, A. Bag, S. Kr. Jana, A. Chakraborty, S. Das, Mihir Kumar Mahata and D. Biswas, “Comparison of different pathways in metamorphic graded buffers onGaAs substrate: Indium incorporation with surface roughness”, Applied Surface Science Vol. 324, pp. 304–309, (2015).( http://dx.doi.org/10.1016/j.apsusc.2014.10.155)",
+            "Ankush Bag, Rahul Kumar, Partha Mukhopadhyay, Mihir K. Mahata, Apurba Chakraborty, Spatarsi Ghosh, Sanjay K. Jana, Dhrubes Biswas, “ Evolution and Analysis of Nitride Surface and Interfaces by Statistical Techniques: A Correlation with RHEED through Kinetic Roughening”, Electron. Mater. Lett., Vol. 11, No. 4 (2015), pp. 707-716 (DOI: 10.1007/s13391-015-5129-3).",
+            "Sanjay Kr. Jana, Saptarsi Ghosh, Syed Mukulika Dinara, Mihir Mahata, Soumen Das, and Dhrubes Biswas, “Structural, optical, and transport properties of AlGaN/GaN and AlGaN/InGaN heterostructure on sapphire grown by plasma assisted molecular beam epitaxy”, Journal of Vacuum Science & Technology B 33, 041206 (2015); doi: 10.1116/1.4926968.",
+            "Saptarsi Ghosh, Syed M. Dinara, Mihir Mahata, Subhashis Das, Partha Mukhopadhyay, Sanjay Kumar Jana and Dhrubes Biswas, “On the different origins of electrical parameter degradation in reverse-bias stressed AlGaN/GaN HEMTs”,Phys. Status Solidi A, Vol.213, Issue 6, pp. 1559-1563 (2016) DOI: 10.1002/pssa.201532916.",
+            "Apurba Chakraborty, Saptarsi Ghosh, Partha Mukhopadhyay, Sanjay K Jana, Syed Mukulika Dinara, Ankush Bag, Mihir K. Mahata, Rahul Kumar, Subhashis Das, Palash Das, and Dhrubes Biswas, “Reverse Bias Leakage Current Mechanism of AlGaN/InGaN/GaN Heterostructure”, Electron. Mater. Lett., Vol. 12, No. 2 (2016), pp. 232-236, DOI: 10.1007/s13391-015-5249-9.",
+            "Soumyadip Chatterjee & Mihir Kumar Mahata, “Unexpected two-step response in AlGaAs/GaAs heterostructure-based SBD”, International Journal of Electronics Letters,Vol. 8, Issue 2, 2020, PP. 223-231, ISSN: 2168-1724 (Print) 2168-1732 (Online), 2019, DOI: 10.1080/21681724.2019.1584916.",
+            "Sowvik Dey, Mihir Kumar Mahata, Amiya Karmakar,”An FPGA-Based Design of a Fault-Tolerant Shared Memory Structure”, International Journal of Electronics, Communications, and Measurement Engineering (IJECME), 11(1), 1-11, 2022, http://doi.org/10.4018/IJECME.31225.",
+            "Mihir Kr. Mahata,Saptarsi Ghosh, Sanjay Jana, Partha Mukhopadhyay, Ankush Bag, Syed Mukulika Dinara, Rahul Kumar, Subhashis Das,  Apurba Chakraborty and Dhrubes Biswas,”  Growth and characterization of Al0.15Ga0.85As/GaAs pseudomorphic heterostructure by MBE” In proceeding IEEE Students' Technology Symposium 2014, IIT kharagpur, India, Feb. 2014, pp.390-392, doi: 10.1109/TechSym.2014.6808082.",
+            "Rahul Kumar, P. Mukhopadhyay, S.K. Jana, A. Bag, S. Ghosh, S. Das, M.K. Mahata and D. Biswas, “ Comprehensive study of AlGaAs/GaAs heterostructures grown by MBE: Structural and compositional analysis”, ICEE 2014, JNTUH College of Engineering, Hyderabad, 15th to 17th December, doi: 10.1109/ICEmElec.2014.7151137.",
+            "Subhashis Das, S. Majumdar, R. Kumar, M. K. Mahata, S. M. Dinara and D. Biswas, “Comprehensive modeling of gas sensor based on Si3N4 passivated AlGaN/GaN Schottky diode”, ICEE 2014, JNTUH College of Engineering, Hyderabad,15th to 17th December.",
+            "Shubhankar Majumdar, Suhail Shaik, Subhashis Das, Rahul Kumar, Ankush Bag, Apurba Chakraborty, Mihir Mahata, Saptarsi Ghosh and Dhrubes Biswas “Temperature dependent etching of Gallium Nitride layers grown by PA –MBE”, ICMAP-December 2015 at ISM Dhanbad, doi: 10.1109/ICMAP.2015.7408773.",
+            "Subhashis Das, R. Kumar, S. Majumdar, M. K. Mahata, Saptarsi Ghosh and D. Biswas , “Acetone sensing in AlGaN/GaN heterostructure on Si (111): A Schottky diode sensor”, E-MRS Fall , September 2015.",
+            "Shubhankar Majumdar, R. Kumar, S. Das, M. Mahata and D. Biswas, “Utilization of Support Vector Machine in determining the optimum operating temperature of ternary III-Arsenide alloys grown by MBE”, E-MRS Fall meeting at Warsaw, Poland, September 2015.",
+            "Apurba Chakraborty, Partha Mukhopadhyay, Saptarsi Ghosh, Ankush Bag, Mihir Kr. Mahata, Sanjay Jana, Syed Mukulika Dinara, Rahul Kumar, Subhashis Das, Shubhankar Majumdar, P. Das and Dhrubes Biswas, “Effect of Different Metal Modulation Scheme and Growth Temperature in InGaN Growth”, ICMAP-December 2015 at ISM Dhanbad.",
+            "Apurba Chakraborty, S. Ghosh, P. Mukhopadhyay, S. M. Dinara, A. Bag, Mihir Kr. Mahata, R. Kumar, Subhashis Das, Sanjay Jana, Shubhankar Majumdar and Dhrubes Biswas, “Trapping Effect Analysis of AlGaN/InGaN/GaN Heterostructure by Conductance-Frequency Measurement” MRS Fall meeting at Boston, November 2015.",
+            "Apurba Chakraborty, Partha Mukhopadhyay, Saptarsi Ghosh, Ankush Bag, Mihir Kr. Mahata, Rahul Kumar, Subhashis Das, P. Das, Sanjay Jana and Dhrubes Biswas, “The Effect of AlN Nucleation and GaN Layer in Indium Incorporation of InGaN Grown by PA-MBE”, Poster presented at IWPSD 2015.",
+            "Sowvik Dey, Chandan Chakraborty, Sushovon Jana, Mihir Kumar Mahata & Amiya Karmakar,” A Novel Architecture of a fault-tolerant Memory System based on Missing Data Imputation”, Proc. of IEEE; EDKCON 2022, Kolkata, Nov 2022, pp.329-333.",
+            "Tania Das, Angshuman Sarkar & Mihir Kumar Mahata,” Performance analysis of New Dual Pocket Tunnel FET Based Biosensor”, Proc. of IEEE; EDKCON 2022, Kolkata, Nov 2022, pp.405-408.",
+            "Mihir Kumar Mahata, Soumyadip Chatterjee, Tania Das, Angsuman Sarkar,” Device Performance Analysis for Different Gate Locations in AlGaN/GaN HEMT by Silvaco Simulation”, 2023 IEEE Devices for Integrated Circuit (DevIC), 7-8 April, 2023, Kalyani, India, pp-119-123.",
+            "Somnath Dasgupta, Syed Sadique Anwer Askari, Gufran Ahmad, Mihir Kumar Mahata,” Effect of Electron Transport Layer on Tin based Perovskite Solar Cells”, 2023 IEEE Devices for Integrated Circuit (DevIC), 7-8 April, 2023, Kalyani, India, pp-148-151.",
         ]
     },
 
     {
         id: 4,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo4,
-        projects:[],
-        patents:[],
-        research:[
+        projects: [],
+        patents: [],
+        research: [
             "Designing and fabrication of Tandem, Intermediate Band, Quantum dot and Thin film based solar cells.",
             "Designing and fabrication of Chemo-resistive, capacitive & Junction Diode Sensors.",
             "Modelling and Designing of 2D semiconducting material based Advanced semiconductor device like tri-gate sub-micron FinFET, quantum dot & quantum wire HEMT, Tunnel FET etc. using TCAD tool like silvaco ",
@@ -137,16 +166,16 @@ export const Faculty_data = [
         email: "sabyasachis2004@yahoo.co.in",
         des: " Mr. Sen has pursued his M.Sc. degree in Electronics Science from Electronic Science Department, University of Pune in 2007, M.Tech from Department of Radio Physics & Electronics, University of Calcutta in 2009. Currently he is pursuing Ph.D.(Engg) from Department of Electronics & Electrical Communication Engineering, Indian Institute of Technology, Kharagpur.He has spent almost a year as a lecturer in Electronics & Communication Engineering Department of Guru Nanak Institute of Technology of JIS group. Currently he is serving as an Assistant Professor in the Department of Microelectronics & VLSI Technology of Maulana Abul Kalam Azad University of Technology since August 2019. Earlier he has taught as a guest lecturer in the same Department of MAKAUT.Besides, he has vast experience of teaching several undergraduate & postgraduate courses both theoretical as well as practical during his research period in IIT Kharagpur. Specifically, he has explicit experiences in teaching Technology CAD & various TCAD tools in both M.Tech. theory and practical classes. Apart from these, he has also significant experience in taking laboratory classes on VLSI Technology & several fabrication processes. He has quite extensive experience on device modeling also",
         acc: [
-    
+
         ]
     },
     {
         id: 5,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo5,
-        projects:[],
-        patents:[],
-        research:[
+        projects: [],
+        patents: [],
+        research: [
             "Fault Tolerant Memory Systems",
             "VLSI Design"
         ],
@@ -170,11 +199,11 @@ export const Faculty_data = [
     },
     {
         id: 6,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo6,
-        projects:[],
-        patents:[],
-        research:[
+        projects: [],
+        patents: [],
+        research: [
             "Compact modelling of advance MOSFET devices for their implementation in application based Circuits"
         ],
         name: "Dr. Ria Bose",
@@ -194,11 +223,11 @@ export const Faculty_data = [
     },
     {
         id: 7,
-        type:"Faculty",
+        type: "Faculty",
         imaga: photo7,
-        projects:[],
-        patents:[],
-        research:[
+        projects: [],
+        patents: [],
+        research: [
             "Advanced Semiconductor device simulation and Modelling"
         ],
         name: "Mrs. Tania Das",
@@ -207,42 +236,42 @@ export const Faculty_data = [
         email: "taniadas53@gmail.com",
         des: "Miss Tania Das has passed M.Tech in microelectronics and VLSI  from Jadavpur University. Miss Das had worked on pH sensor made by suspended gate field effect transistor , Equalizer using Whale optimization algorithm, Microcontroller based Digital Clock using RTC(DS 12887)",
         acc: [
-    
+
         ]
     }
-] 
+]
 
 export const Stuff_data = [
     {
         id: 1,
-        type:"Stuff",
+        type: "Stuff",
         imaga: photo8,
-        projects:[],
-        patents:[],
-        research:[],
+        projects: [],
+        patents: [],
+        research: [],
         name: "Mrs. Chumki Das",
         designation: "Technical Assistant",
         department: "Microelectronics and VLSI Technology",
         email: "",
         des: "She has done post-graduation in Microelectronics and VLSI and Technology from MAKAUT and has the responsibility for analyzing, recommending, and coordinating the implementation of ideas practically for ensuring the smooth functioning of departments/laboratories under appropriate guidance.",
         acc: [
-    
+
         ]
     },
     {
         id: 2,
-        type:"Stuff",
+        type: "Stuff",
         imaga: photo9,
-        projects:[],
-        patents:[],
-        research:[],
+        projects: [],
+        patents: [],
+        research: [],
         name: "Ranjan Debnath",
         designation: "Academic Assistant",
         department: "Microelectronics and VLSI Technology",
         email: "debnath07.ranjan@gmail.com",
         des: "Mr. Debnath has worked as a Lecturer (Department of Electronics and Telecommunication Engg) at Elite Polytechnic Institute , Mogra, Hooghly  and JIS School of Polytechnic, Kalyani, Nadia.  Also worked as a Programmer Analyst ( Trainee) at Excelacom Technologies Pvt Ltd , Siruseri I.T Park, Chennai, Tamilnadu and As a Service Engineer at Hinditron Services Private limited , Kolkata.  Mr. Debnath has completed his B.Tech Degree From JIS College of Engineering, Kalyani , Under W.B.U.T  and possesses an experience of over 11 years in both academics and Industry.",
         acc: [
-    
+
         ]
     }
 ]
