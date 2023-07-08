@@ -2,12 +2,18 @@ import React from 'react'
 const Left_Labcard = ({ data }) => {
   return (
     <div className="leftcard" style={{ display: "flex", justifyContent: "space-between", gap: '20px' }}>
-      <div className="texta" style={{ width: "40vw"}}>
+      <div className="texta" style={{ width: "40vw" }}>
         <h1>{data.name}</h1>
         <p>{data.des}</p>
+        <h1>Tools and Software</h1>
+        {data.used_Software.map(x =>
+          <ul>
+            <li>{x}</li>
+          </ul>
+        )}
       </div>
 
-      <div className="caru" style={{ width: "60vw"}}>
+      <div className="caru" style={{ width: "60vw" }}>
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">

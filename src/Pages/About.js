@@ -38,11 +38,14 @@ const About = () => {
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <div style={{ width: "50%" }}>
                             <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Our Mission</h2>
-                            <li>The Department of Microelectronics and VLSI Technology motivates to produce globally competent Engineers prepared to face challenges of the society.</li>
-                            <li>To enable the students to formulate, design and solve problems in applied science and engineering.</li>
-                            <li>To provide excellent teaching and research environment using state of the art facilities.</li>
-                            <li>To provide adequate practical training to meet the requirement of the Electronics & communication industry.</li>
-                            <li>To train the students to take up leadership roles in their career or to pursue higher education and research.</li>
+                            <p>The Department of Microelectronics and VLSI Technology motivates</p>
+                            <ul>
+                                <li>To participate in the Special Man Power Development Program to meet the ever-challenging issues in the field of Microelectronics and VLSI Technology</li>
+                                <li>To enable the students to formulate, design, and solve problems in applied science and engineering</li>
+                                <li>To provide excellent teaching and research environment using state-of-the-art facilities</li>
+                                <li>To provide adequate support in developing knowledge-based skills to meet the requirements of the Microelectronics, Embedded Systems, & VLSI industry</li>
+                                <li>To develop a positive attitude among students to participate in collaborative research work</li>
+                            </ul>
                         </div>
                         <div style={{ width: "50%", padding: "30px" }}>
                             <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Our Vision</h2>

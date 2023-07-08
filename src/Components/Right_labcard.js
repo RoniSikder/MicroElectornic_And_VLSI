@@ -5,7 +5,7 @@ const Right_labcard = ({ data }) => {
         <div className="rightcard" style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
             {/* <img className='mara' src={data.img} /> */}
 
-            <div className="caru" style={{width:"60vw"}}>
+            <div className="caru" style={{ width: "60vw" }}>
                 <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="10000">
@@ -29,9 +29,15 @@ const Right_labcard = ({ data }) => {
                 </div>
             </div>
 
-            <div className="texta" style={{width:"40vw"}}>
+            <div className="texta" style={{ width: "40vw" }}>
                 <h1>{data.name}</h1>
                 <p>{data.des}</p>
+                <h1>Tools and Software</h1>
+                {data.used_Software.map(x =>
+                    <ul>
+                        <li>{x}</li>
+                    </ul>
+                )}
             </div>
         </div>
     )

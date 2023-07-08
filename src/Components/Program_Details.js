@@ -2,10 +2,18 @@ import React from 'react'
 import { Course } from '../User Coustomization Portion/Course'
 import photo from '../Image Components/All_India_Council_for_Technical_Education_logo.png'
 import { useNavigate } from 'react-router-dom'
+import { Faculty_data } from '../User Coustomization Portion/Faculty_data'
 
 const Program_Details = () => {
   let navigation = useNavigate()
   const sigma = sessionStorage.getItem("Course_Id")
+  function gotoDetails(name){
+    const data = Faculty_data.find(obj=>obj.name===name);
+    console.log(data.id);
+    sessionStorage.setItem("Member_Id", data.id);
+    sessionStorage.setItem("Member_Type", 'Faculty');
+    navigation("/faculty_details");
+  }
   return (
     <>
       <div style={{ padding: "20px" }}>
@@ -14,10 +22,10 @@ const Program_Details = () => {
           <div>
             <h1 style={{ fontFamily: "'Kanit', sans-serif" }}>{Course[sigma - 1].name}</h1>
             <p>By Department of Microelectronics and VLSI of Maulana Abul Kalam Azad University of Technology<br />
-              Approved by AICTE <img src={photo} style={{ height: "3%", width: "3%" }} /></p>
+              Approved by AICTE <img src={photo} style={{ height: "3%", width: "3%" }} alt='' /></p>
           </div>
           <div className='card' style={{ width: "35%", border: "none" }}>
-            <img src={Course[sigma - 1].imga} style={{ borderRadius: "5px" }} />
+            <img src={Course[sigma - 1].imga} alt='' style={{ borderRadius: "5px" }} />
           </div>
         </div>
         <div style={{ display: "flex", }}>
@@ -28,7 +36,7 @@ const Program_Details = () => {
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Syllabus</h3>
-              <p><a href={Course[sigma - 1].syllebus} style={{ color: "red" }} target="_blank">Click me</a> to Download the Syllebus</p>
+              <p><a href={Course[sigma - 1].syllebus} style={{ color: "red" }}>Click me</a> to Download the Syllebus</p>
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>
@@ -38,9 +46,9 @@ const Program_Details = () => {
             <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "space-between" }}>
               {
                 Course[sigma - 1].teacher.map(x =>
-                  <div className='fa-div'>
+                  <div className='fa-div' onClick={()=>{gotoDetails(x.namea)}}>
                     <div>
-                      <img src={x.fa_img} className="fa-icon" />
+                      <img src={x.fa_img} className="fa-icon" alt=''/>
                     </div>
                     <div>
                       <p>{x.namea}<br />{x.designation}</p>
