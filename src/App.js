@@ -17,6 +17,7 @@ import Oppertunity from "./Components/Oppertunity";
 import Mob_Navbar from "./Components/Mob_Navbar";
 import Staff_List from "./Components/Staff_List";
 import Alumni_List from "./Components/Alumni_List";
+import B_Tech_Program from "./Pages/B_Tech_Program";
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/program" element={<Programs />} />
+          <Route path="/course/m.tech" element={<Programs />} />
+          <Route path="/course/b.tech" element={<B_Tech_Program/>} />
           <Route path="/program_details" element={<Program_Details />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/staffs" element={<Staff_List/>}/>

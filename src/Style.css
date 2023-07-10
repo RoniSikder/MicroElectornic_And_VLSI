@@ -122,18 +122,18 @@ a {
 }
 
 #construction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    width: 60%;
+    height: 110vh;
+    width: 100%;
     margin: auto;
 }
 
-#construction img {
-    height: 60vh;
-    width: 60vw;
-    margin: auto;
+#construction h5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2dvw;
+    color: white;
+}
+#construction p{
+    color: rgb(173, 239, 209);
 }
 
 #st {

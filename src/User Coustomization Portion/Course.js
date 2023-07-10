@@ -1,5 +1,6 @@
 import image1 from "../Image Components/Course Pictures/Micro.jpg"
 import image2 from "../Image Components/Course Pictures/emb.jpg"
+import image3 from "../Image Components/Course Pictures/electronics.jpg"
 
 import teacher2 from "../Image Components/Faculty Pictures/Madhumita Das.png"
 import teacher3 from "../Image Components/Faculty Pictures/Dr .Mihir Mahata.png"
@@ -10,6 +11,7 @@ import teacher7 from "../Image Components/Faculty Pictures/Tania Das.png"
 
 import embedded from "../Image Components/Embedded Systems.pdf"
 import micro from "../Image Components/Microelectronics.pdf"
+import electronics from "../Image Components/Electronics.pdf"
 
 export const Course = [
     {
@@ -110,4 +112,57 @@ export const Course = [
         Admission_fees: "14,700",
         campas: "NH12, Haringhata, PO- Simhat, PS- Haringhata, PIN- 741249"
     }
+]
+
+export const Bachelor = [
+    {
+        id: 1,
+        name: "B.Tech in Electronics Engineering",
+        imga: image3,
+        syllebus: electronics,
+        intro: "B.Tech in Electronics Engineering (VLSI Design and Technology) helps students to grow up with the knowledge of Electronics with a specialization in VLSI Design and Technology. The employability and employment opportunities for graduates, a future-ready workforce who will be skilled enough to handle the rapid growth in the Semiconductors, VLSI Design and Technology field. In this program, the students will be able to learn and explore CMOS VLSI Design, Advanced Embedded Systems, VLSI Design and Verification, Design of Analog VLSI circuits, Low-Power VLSI Design, several CAD tools (Xilinx, Cadence etc.), hardware description languages to design the logic of fundamental building blocks as well as the entire system of VLSI Circuits.",
+         phone: [
+            "8116384379",
+            "7044730650",
+            "9883260106"
+        ],
+        teacher: [
+            {
+                namea: "Dr. Madhumita Das Sarkar",
+                designation: "Associate Professor",
+                fa_img:teacher2
+            },
+            {
+                namea: "Dr. Mihir Kumar Mahata",
+                designation: "Assistant Professor and HOD",
+                fa_img:teacher3
+            },
+            {
+                namea: "Dr. Ria Bose",
+                designation: "Assistant Professor",
+                fa_img:teacher5
+            },
+            {
+                namea: "Mr. Sabyasachi Sen",
+                designation: "Assistant Professor",
+                fa_img:teacher4
+            },
+            {
+                namea: "Mr. Sowvik Dey",
+                designation: "Assistant Professor",
+                fa_img:teacher6
+            },
+            {
+                namea: "Mrs. Tania Das",
+                designation: "Assistant Professor",
+                fa_img:teacher7
+            }
+        ],
+        duration: "4 Years",
+        total_fees: "",
+        Semester_fees: "",
+        Admission_fees: "",
+        campas: "NH12, Haringhata, PO- Simhat, PS- Haringhata, PIN- 741249 "
+    }
+
 ]

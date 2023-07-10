@@ -41,7 +41,21 @@ const Navbar = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <Link className="nav-link" to="/program">Programs</Link >
+                            <li>
+                                <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                    <ul className="navbar-nav">
+                                        <li className="nav-item dropdown">
+                                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Programs
+                                            </Link>
+                                            <ul className="dropdown-menu dropdown-menu">
+                                                <li><Link className="dropdown-item" to="/course/m.tech">Master's of Technology</Link></li>
+                                                <li><Link className="dropdown-item" to="/course/b.tech">Bachelor's of Technology</Link></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <Link className="nav-link" to="/events">Events</Link>
                             <li>
                                 <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">

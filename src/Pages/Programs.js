@@ -7,6 +7,7 @@ const Programs = () => {
     const data = (value) =>{
         console.log(value);
         sessionStorage.setItem("Course_Id",value)
+        sessionStorage.setItem("Course_Type","M.Tech")
         navigation("/program_details")
     }
     return (
@@ -16,14 +17,14 @@ const Programs = () => {
                     <div className="card text-bg-dark">
                         <img src={photo} className="card-img" alt="..." style={{ opacity: "30%" }} />
                         <div className="card-img-overlay">
-                            <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Courses</h1>
+                            <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Programs</h1>
                         </div>
                     </div>
                 </div>
             </div>
             <div style={{ color: "white", padding: "20px" }}>
                 <div>
-                    <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Programs</h2>
+                    <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Masters Of Technology Courses</h2>
                     <div style={{ display: "flex", justifyContent: "space-evenly" }}>
                         {
                             Course.map(x =>

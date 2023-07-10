@@ -1,59 +1,182 @@
-import boy1 from "../Image Components/Alumni Pictures/Boy1.jpg"
-import boy2 from "../Image Components/Alumni Pictures/Boy2.jpg"
-import boy3 from "../Image Components/Alumni Pictures/Boy3.jpg"
-import boy4 from "../Image Components/Alumni Pictures/Boy4.jpg"
-import girl1 from "../Image Components/Alumni Pictures/Girl1.jpg"
-import girl2 from "../Image Components/Alumni Pictures/Girl2.jpg"
-import girl3 from "../Image Components/Alumni Pictures/Girl3.jpg"
-import girl4 from "../Image Components/Alumni Pictures/Girl4.jpg"
-
 export const Alumni = [
+
     {
-        name: "Amit Kumar Singh",
-        year: "2016-17",
-        image: boy1,
-        description: "VLSI Industry"
+        year: "2016-2017",
+        group_name: "Alpha Batch",
+        students: [
+            {
+                name: "Amit Kumar Singh",
+                description: "VLSI Industry"
+            },
+            {
+                name: "Abhijit Narayan Eshore",
+                description: "PhD IITKGP"
+            },
+            {
+                name: "Abhijit Das",
+                description: "CSIR-CGCRI"
+            },
+            {
+                name: "Sushmita",
+                description: "PhD CU"
+            },
+            {
+                name: "Sulagna Chakraborty",
+                description: "PhD CU"
+            },
+            {
+                name: "Sayantika Das",
+                description: "Sankalp Semiconductor"
+            },
+            {
+                name: "Pallavi Bharati",
+                description: "DST Project, phd MAKAUT"
+            },
+            {
+                name: "Avijit Kumar Paul",
+                description: "TCS"
+            },
+            {
+                name: "Arunima Mondal",
+                description: "TCS"
+            }
+        ]
     },
     {
-        name: "Abhijit Narayan Eshore",
-        year: "2016-17",
-        image: boy2,
-        description: "PhD IITKGP"
+        year: "2017-2018",
+        group_name: "Beta Batch",
+        students: [
+            {
+                name: "Saptaparna De",
+                description: "RCI DRDO"
+            },
+            {
+                name: "Sanjukta Mitra",
+                description: "DRDO"
+            },
+            {
+                name: "Agnibha Dasgupta",
+                description: "BOSE"
+            },
+            {
+                name: "Suryamoy Mondal",
+                description: "PhD, ISM Dhanbad"
+            },
+            {
+                name: "Putul Sahoo",
+                description: "Sankalp Semiconductor"
+            },
+            {
+                name: "Humayun Rahaman",
+                description: "Gitanjali Solar"
+            },
+            {
+                name: "Antalina Saha",
+                description: "Jadavpur University, SRF"
+            }
+        ]
     },
     {
-        name: "Abhijit Das",
-        year: "2016-17",
-        image: boy3,
-        description: "CSIR-CGCRI"
+        year: "2018-2019",
+        group_name: "Gamma Batch",
+        students: [
+            {
+                name: "Tias Das",
+                description: "RCTRC, Kalyani"
+            },
+            {
+                name: "Shuvra Jyoti Bose",
+                description: "PhD NITDGP"
+            },
+            {
+                name: "Dipanjan Rana",
+                description: "Research Felow - MAKAUT "
+            },
+            {
+                name: "Magnolia Roy",
+                description: "PhD, IITKGP"
+            },
+            {
+                name: "Ajoyjit Ghosh",
+                description: "Gitanjali Solar"
+            }
+        ]
     },
     {
-        name: "Saptaparna De",
-        year: "2017-18",
-        image: girl2,
-        description: "RCI DRDO"
+        year: "2019-2020",
+        group_name: "Delta Batch",
+        students: [
+            {
+                name: "Benoy Majumdar",
+                description: "TCS, System Engg."
+            },
+            {
+                name: "Debolina Pramanik",
+                description: "PhD IITKGP"
+            },
+            {
+                name: "Subham Sen",
+                description: "Guest Lecturer"
+            },
+            {
+                name: "Chandani Kumari",
+                description: "IECT, Embedded System"
+            },
+            {
+                name: "Soumya Sengupta",
+                description: "PhD NIT Rourkella"
+            },
+            {
+                name: "Tathagata Ghose",
+                description: "Capgemini"
+            },
+            {
+                name: "Arkajaa Acharya",
+                description: "Banking Sector"
+            },
+            {
+                name: "Priyanka Ghosh",
+                description: "Royal Research"
+            }
+        ]
     },
     {
-        name: "Sanjukta Mitra",
-        year: "2017-18",
-        image: girl1,
-        description: "DRDO"
+        year: "2020-2021",
+        group_name: "Epsilon Batch",
+        students: [
+            {
+                name: "SOMA CHATTERJEE",
+                description: "Mallabhum Instt of Technology "
+            },
+            {
+                name: "SHRESTHA CHATTERJEE",
+                description: "Capgemini"
+            },
+            {
+                name: "AMIT SARKAR",
+                description: "IIT Delhi"
+            },
+            {
+                name: "DIPTANU JOARDAR",
+                description: "Infosys"
+            },
+            {
+                name: "PRASENJIT BISHAL",
+                description: "Green Solar"
+            },
+            {
+                name: "FARZANA KHATOON",
+                description: "Fusionbpo Services"
+            },
+            {
+                name: "SHWETA KUMARI",
+                description: "PP Passchip Pvt Ltd "
+            },
+            {
+                name: "MEGHNAD HALDER",
+                description: "ICAR- Fisheries, Project Assistant"
+            }
+        ]
+
     },
-    {
-        name: "Agnibha Dasgupta",
-        year: "2017-18",
-        image: girl4,
-        description: "BOSE"
-    },
-    {
-        name: "Tias Das",
-        year: "2018-19",
-        image: girl3,
-        description: "RCTRC, Kalyani"
-    },
-    {
-        name: "MEGHNAD HALDER",
-        year: "2020-21",
-        image: boy4,
-        description: "ICAR- Fisheries, Project Assistant"
-    }
 ]

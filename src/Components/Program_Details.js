@@ -1,18 +1,31 @@
 import React from 'react'
-import { Course } from '../User Coustomization Portion/Course'
+import { Course, Bachelor } from '../User Coustomization Portion/Course'
 import photo from '../Image Components/All_India_Council_for_Technical_Education_logo.png'
 import { useNavigate } from 'react-router-dom'
 import { Faculty_data } from '../User Coustomization Portion/Faculty_data'
 
 const Program_Details = () => {
   let navigation = useNavigate()
-  const sigma = sessionStorage.getItem("Course_Id")
-  function gotoDetails(name){
-    const data = Faculty_data.find(obj=>obj.name===name);
+  function gotoDetails(name) {
+    const data = Faculty_data.find(obj => obj.name === name);
     console.log(data.id);
     sessionStorage.setItem("Member_Id", data.id);
     sessionStorage.setItem("Member_Type", 'Faculty');
     navigation("/faculty_details");
+  }
+
+  const sigma = sessionStorage.getItem("Course_Id")
+  let type
+  switch (sessionStorage.getItem("Course_Type")) {
+    case 'B.Tech':
+      type = Bachelor
+      break;
+    case 'M.Tech':
+      type = Course
+      break;
+    default:
+      break;
+
   }
   return (
     <>
@@ -20,23 +33,23 @@ const Program_Details = () => {
         <button className='btn btn-success' onClick={() => { navigation(-1) }}>Close</button>
         <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "10px" }}>
           <div>
-            <h1 style={{ fontFamily: "'Kanit', sans-serif" }}>{Course[sigma - 1].name}</h1>
+            <h1 style={{ fontFamily: "'Kanit', sans-serif" }}>{type[sigma - 1].name}</h1>
             <p>By Department of Microelectronics and VLSI of Maulana Abul Kalam Azad University of Technology<br />
               Approved by AICTE <img src={photo} style={{ height: "3%", width: "3%" }} alt='' /></p>
           </div>
           <div className='card' style={{ width: "35%", border: "none" }}>
-            <img src={Course[sigma - 1].imga} alt='' style={{ borderRadius: "5px" }} />
+            <img src={type[sigma - 1].imga} alt='' style={{ borderRadius: "5px" }} />
           </div>
         </div>
         <div style={{ display: "flex", }}>
           <div style={{ backgroundColor: "white", color: "black", padding: "20px", width: "75%", borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }}>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>About The Course</h3>
-              <p>{Course[sigma - 1].intro}</p>
+              <p>{type[sigma - 1].intro}</p>
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Syllabus</h3>
-              <p><a href={Course[sigma - 1].syllebus} style={{ color: "red" }}>Click me</a> to Download the Syllebus</p>
+              <p><a href={type[sigma - 1].syllebus} style={{ color: "red" }} target="_blank">Click me</a> to Download the Syllebus</p>
             </div>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>
@@ -45,10 +58,10 @@ const Program_Details = () => {
             </div>
             <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "space-between" }}>
               {
-                Course[sigma - 1].teacher.map(x =>
-                  <div className='fa-div' onClick={()=>{gotoDetails(x.namea)}}>
+                type[sigma - 1].teacher.map(x =>
+                  <div className='fa-div' onClick={() => { gotoDetails(x.namea) }}>
                     <div>
-                      <img src={x.fa_img} className="fa-icon" alt=''/>
+                      <img src={x.fa_img} className="fa-icon" alt='' />
                     </div>
                     <div>
                       <p>{x.namea}<br />{x.designation}</p>
@@ -60,16 +73,16 @@ const Program_Details = () => {
           </div>
           <div style={{ width: "40%", border: "2px solid white", padding: "20px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px" }}>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Duration</h4>
-            <p>{Course[sigma - 1].duration}</p>
+            <p>{type[sigma - 1].duration}</p>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Fees Structure</h4>
-            <p>Total Fees : {Course[sigma - 1].total_fees}</p>
-            <p>Semester Fees : {Course[sigma - 1].Semester_fees}</p>
-            <p>Admission Fees : {Course[sigma - 1].Admission_fees}</p>
+            <p>Total Fees : {type[sigma - 1].total_fees}</p>
+            <p>Semester Fees : {type[sigma - 1].Semester_fees}</p>
+            <p>Admission Fees : {type[sigma - 1].Admission_fees}</p>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Campas</h4>
-            <p>{Course[sigma - 1].campas}</p>
+            <p>{type[sigma - 1].campas}</p>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Contact</h4>
             {
-              Course[sigma - 1].phone.map(x =>
+              type[sigma - 1].phone.map(x =>
                 <p>{x}</p>
               )
             }
