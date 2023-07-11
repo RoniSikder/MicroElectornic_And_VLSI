@@ -74,6 +74,8 @@ const Program_Details = () => {
           <div style={{ width: "40%", border: "2px solid white", padding: "20px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px" }}>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Duration</h4>
             <p>{type[sigma - 1].duration}</p>
+            <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Intake Capacity</h4>
+            <p>{type[sigma - 1].intake}</p>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Fees Structure</h4>
             <p>Total Fees : {type[sigma - 1].total_fees}</p>
             <p>Semester Fees : {type[sigma - 1].Semester_fees}</p>

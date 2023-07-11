@@ -14,7 +14,9 @@ export const labData = [
         des: "The focus of this lab is widely spread towards different pros and cons of the entire upgrading VLSI domain. Development works at different levels like vlsi circuits &amp; system design has extensively being carried out. The VLSI lab is well-equipped with some of the most modern facilities of recent times. Hardware equipment include FPGA development kits from Xilinx and Altera Inc. along with high-end software tools and packages for VLSI design and synthesis namely Cadence Bundle, Xilinx ISE Foundation Softwares etc.The laboratory course explores the design aspects of an introduction to the characteristics of digital logic, design, construction, testing and debugging of simple digital circuits using Verilog HDL. and also provide an introduction to the development of application using microcontrollers.",
         used_Software : [
             "Synopsys",
-            "Mentor Graphics"
+            "Mentor Graphics",
+            "Cadence",
+            "Xilinx ISE"
         ],
         img :[
             i1,i1,i1
@@ -42,7 +44,7 @@ export const labData = [
             "Prob Station",
             "Keithley",
             "IV-CV measurement unit",
-            "Silvaco"
+            "TCAD Tool : Silvaco"
         ],
         img :[
             i3a,i3b,i3c

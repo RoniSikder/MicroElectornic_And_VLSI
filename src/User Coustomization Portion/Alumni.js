@@ -1,7 +1,7 @@
 export const Alumni = [
 
     {
-        year: "2016-2017",
+        year: "2016-2018",
         group_name: "Alpha Batch",
         students: [
             {
@@ -43,7 +43,7 @@ export const Alumni = [
         ]
     },
     {
-        year: "2017-2018",
+        year: "2017-2019",
         group_name: "Beta Batch",
         students: [
             {
@@ -77,7 +77,7 @@ export const Alumni = [
         ]
     },
     {
-        year: "2018-2019",
+        year: "2018-2020",
         group_name: "Gamma Batch",
         students: [
             {
@@ -103,7 +103,7 @@ export const Alumni = [
         ]
     },
     {
-        year: "2019-2020",
+        year: "2019-2021",
         group_name: "Delta Batch",
         students: [
             {
@@ -141,7 +141,7 @@ export const Alumni = [
         ]
     },
     {
-        year: "2020-2021",
+        year: "2020-2022",
         group_name: "Epsilon Batch",
         students: [
             {

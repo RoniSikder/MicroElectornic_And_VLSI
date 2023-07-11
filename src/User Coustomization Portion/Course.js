@@ -25,6 +25,7 @@ export const Course = [
             "7044730650",
             "9883260106"
         ],
+        intake:30,
         teacher: [
             {
                 namea: "Dr. Madhumita Das Sarkar",
@@ -57,7 +58,7 @@ export const Course = [
                 fa_img:teacher7
             }
         ],
-        duration: "2 Years",
+        duration: "2 Years(4 Semesters)",
         total_fees: "86,700",
         Semester_fees: "18,000",
         Admission_fees: "14,700",
@@ -74,6 +75,7 @@ export const Course = [
             "7044730650",
             "9883260106"
         ],
+        intake:30,
         teacher: [
             {
                 namea: "Dr. Madhumita Das Sarkar",
@@ -106,7 +108,7 @@ export const Course = [
                 fa_img:teacher7
             }
         ],
-        duration: "2 Years",
+        duration: "2 Years(4 Semesters)",
         total_fees: "86,700",
         Semester_fees: "18,000",
         Admission_fees: "14,700",
@@ -117,7 +119,7 @@ export const Course = [
 export const Bachelor = [
     {
         id: 1,
-        name: "B.Tech in Electronics Engineering",
+        name: "B.Tech in Electronics Engineering(VLSI Design and Technology)",
         imga: image3,
         syllebus: electronics,
         intro: "B.Tech in Electronics Engineering (VLSI Design and Technology) helps students to grow up with the knowledge of Electronics with a specialization in VLSI Design and Technology. The employability and employment opportunities for graduates, a future-ready workforce who will be skilled enough to handle the rapid growth in the Semiconductors, VLSI Design and Technology field. In this program, the students will be able to learn and explore CMOS VLSI Design, Advanced Embedded Systems, VLSI Design and Verification, Design of Analog VLSI circuits, Low-Power VLSI Design, several CAD tools (Xilinx, Cadence etc.), hardware description languages to design the logic of fundamental building blocks as well as the entire system of VLSI Circuits.",
@@ -126,6 +128,7 @@ export const Bachelor = [
             "7044730650",
             "9883260106"
         ],
+        intake:60,
         teacher: [
             {
                 namea: "Dr. Madhumita Das Sarkar",
@@ -158,10 +161,10 @@ export const Bachelor = [
                 fa_img:teacher7
             }
         ],
-        duration: "4 Years",
-        total_fees: "",
-        Semester_fees: "",
-        Admission_fees: "",
+        duration: "4 Years(8 Semesters)",
+        total_fees: "2,30,200",
+        Semester_fees: "30,000(Odd Semester)/25,000(Even Semester)",
+        Admission_fees: "10,200",
         campas: "NH12, Haringhata, PO- Simhat, PS- Haringhata, PIN- 741249 "
     }
 
