@@ -25,6 +25,7 @@ export const Course = [
             "7044730650",
             "9883260106"
         ],
+        intake:30,
         teacher: [
             {
                 namea: "Dr. Madhumita Das Sarkar",
@@ -74,6 +75,7 @@ export const Course = [
             "7044730650",
             "9883260106"
         ],
+        intake:30,
         teacher: [
             {
                 namea: "Dr. Madhumita Das Sarkar",
@@ -117,7 +119,7 @@ export const Course = [
 export const Bachelor = [
     {
         id: 1,
-        name: "B.Tech in Electronics Engineering",
+        name: "B.Tech in Electronics Engineering(VLSI Design and Technology)",
         imga: image3,
         syllebus: electronics,
         intro: "B.Tech in Electronics Engineering (VLSI Design and Technology) helps students to grow up with the knowledge of Electronics with a specialization in VLSI Design and Technology. The employability and employment opportunities for graduates, a future-ready workforce who will be skilled enough to handle the rapid growth in the Semiconductors, VLSI Design and Technology field. In this program, the students will be able to learn and explore CMOS VLSI Design, Advanced Embedded Systems, VLSI Design and Verification, Design of Analog VLSI circuits, Low-Power VLSI Design, several CAD tools (Xilinx, Cadence etc.), hardware description languages to design the logic of fundamental building blocks as well as the entire system of VLSI Circuits.",
@@ -126,6 +128,7 @@ export const Bachelor = [
             "7044730650",
             "9883260106"
         ],
+        intake:60,
         teacher: [
             {
                 namea: "Dr. Madhumita Das Sarkar",
