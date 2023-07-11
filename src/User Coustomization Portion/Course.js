@@ -58,7 +58,7 @@ export const Course = [
                 fa_img:teacher7
             }
         ],
-        duration: "2 Years",
+        duration: "2 Years(4 Semesters)",
         total_fees: "86,700",
         Semester_fees: "18,000",
         Admission_fees: "14,700",
@@ -108,7 +108,7 @@ export const Course = [
                 fa_img:teacher7
             }
         ],
-        duration: "2 Years",
+        duration: "2 Years(4 Semesters)",
         total_fees: "86,700",
         Semester_fees: "18,000",
         Admission_fees: "14,700",
@@ -161,10 +161,10 @@ export const Bachelor = [
                 fa_img:teacher7
             }
         ],
-        duration: "4 Years",
-        total_fees: "",
-        Semester_fees: "",
-        Admission_fees: "",
+        duration: "4 Years(8 Semesters)",
+        total_fees: "2,30,200",
+        Semester_fees: "30,000(Odd Semester)/25,000(Even Semester)",
+        Admission_fees: "10,200",
         campas: "NH12, Haringhata, PO- Simhat, PS- Haringhata, PIN- 741249 "
     }
 
