@@ -34,7 +34,7 @@ const Navbar = () => {
                                             </Link>
                                             <ul className="dropdown-menu dropdown-menu">
                                                 <li><Link className="dropdown-item" to="/labData">Laboratory Facility</Link></li>
-                                                <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makaut-opac.libcarecloud.com/")}>Libray Facility</button></li>
+                                                <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makaut-opac.libcarecloud.com/")}>Library Facility</button></li>
                                                 <li><Link className="dropdown-item" to="/underConstruction">Classroom Facility</Link></li>
                                             </ul>
                                         </li>

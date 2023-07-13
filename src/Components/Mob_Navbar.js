@@ -12,7 +12,7 @@ const Mob_Navbar = () => {
             <nav className="navbar sticky-top navbar-light bg-light" style={{ fontFamily: "'Righteous', cursive", top: "0px" }}>
                 <div className="container-fluid" style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
                     <div style={{ display: "flex", gap: "20px", width: "60%" }}>
-                        <img src={photo} style={{ width: "5rem" }} />
+                        <img src={photo} alt='' style={{ width: "5rem" }} />
                         <div style={{ border: "none", borderLeft: "5px solid black", width: "5px" }}></div>
                         <div>
                             <Link className="navbar-brand" to="/" style={{ fontSize: "3vw" }}>  SCHOOL OF<br />    ENGINEERING SCIENCE AND <br /> TECHNOLOGY</Link>
@@ -24,57 +24,53 @@ const Mob_Navbar = () => {
                 </div>
             </nav>
             <div className="collapse" id="navbarToggleExternalContent">
-                <div className="bg-light p-4">
-                    <div className="navbar-brand" id="navbarNav" style={{ width: "60%" }}>
-                        <ul className="navbar-nav d-flex justify-content-between">
-                            <Link className="nav-link" to="/">Home</Link>
-                            <Link className="nav-link" to="/about">About</Link>
-                            <li>
-                                <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                                    <ul className="navbar-nav">
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Facility
-                                            </Link>
-                                            <ul className="dropdown-menu dropdown-menu-dark">
-                                                <li><Link className="dropdown-item" to="/labData">Lab Facility</Link></li>
-                                                <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makaut-opac.libcarecloud.com/")}>Libray Facility</button></li>
-                                                <li><Link className="dropdown-item" to="/underConstruction">Classroom Facility</Link></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <Link className="nav-link" to="/program">Programs</Link >
-                            <Link className="nav-link" to="/events">Events</Link>
-                            <Link className="nav-link" to="/faculty">Faculty</Link>
-                            <li>
-                                <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                                    <ul className="navbar-nav">
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Activity
-                                            </Link>
-                                            <ul className="dropdown-menu dropdown-menu-dark">
-                                                <li><Link className="dropdown-item" to="/projects">Projects</Link></li>
-                                                <li><Link className="dropdown-item" to="/oppertunity">Opportunitie</Link></li>
-                                                <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makautwb.ac.in/page.php?id=214")}>Placement</button></li>
-                                                <li><Link className="dropdown-item" target="_blank" to={Magazin}>Student Magazine</Link></li>
-                                                <li><Link className="dropdown-item" to="/notice">Notice</Link></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            {/* <Link className="nav-link" to="/contact">Contact Us</Link> */}
-                            <button onClick={() => openInNewTab("https://makaut.formflix.com/")} target="_blank" className="btn btn-success">
-                                Apply Now
-                            </button>
-
+                <ul className="nav nav-pills" style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
+                    <li className="nav-item">
+                        <a className="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/about">About</a>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link" data-bs-toggle="collapse" href="#collapseExample1" aria-controls="collapseExample1" role="button" aria-expanded="false">Facility</a>
+                        <ul className="collapse" id="collapseExample1">
+                            <li><a className="dropdown-item" href="/labData">Laboratory Facility</a></li>
+                            <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makaut-opac.libcarecloud.com/")}>Library Facility</button></li>
+                            <li><a className="dropdown-item" href="/underConstruction">Classroom Facility</a></li>
                         </ul>
-                    </div>
-
-                </div>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Programs</a>
+                        <ul className="collapse" id="collapseExample">
+                            <li><a className="dropdown-item" href="/course/m.tech">Master's of Technology</a></li>
+                            <li><a className="dropdown-item" href="/course/b.tech">Bachelor's of Technology</a></li>
+                        </ul>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/events">Events</a>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link" data-bs-toggle="collapse" href="#Exampler" aria-controls="Exampler" role="button" aria-expanded="false">Members</a>
+                        <ul className="collapse" id="Exampler">
+                            <li><a className="dropdown-item" href="/faculty">Faculty</a></li>
+                            <li><a className="dropdown-item" href="/Staffs">Staff</a></li>
+                            <li><a className="dropdown-item" href="/alumni">Alumni</a></li>
+                        </ul>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link" data-bs-toggle="collapse" href="#Exampler1" aria-controls="Exampler1" role="button" aria-expanded="false">Facility</a>
+                        <ul className="collapse" id="Exampler1">
+                            <li><a className="dropdown-item" href="/projects">Projects</a></li>
+                            <li><a className="dropdown-item" href="/oppertunity">Opportunitie</a></li>
+                            <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makautwb.ac.in/page.php?id=214")}>Placement</button></li>
+                            <li><a className="dropdown-item" target="_blank" href={Magazin}>Student Magazine</a></li>
+                            <li><a className="dropdown-item" href="/notice">Notice</a></li>
+                        </ul>
+                    </li>
+                    <button onClick={() => openInNewTab("https://makaut.formflix.com/")} target="_blank" className="btn btn-success">
+                        Apply Now
+                    </button>
+                </ul>
             </div>
         </>
     )

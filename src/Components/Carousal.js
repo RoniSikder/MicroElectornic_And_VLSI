@@ -19,22 +19,21 @@ const Carousal = () => {
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="true">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={Image1} className="d-block w-100" alt="..." style={{ filter: "brightness(70%) opacity(90%)", backgroundColor: "white" }} />
+                        <img src={Image1} className="d-block w-100 car-image" alt="..." style={{ filter: "brightness(70%) opacity(90%)", backgroundColor: "white"}} />
                         <div className="carousel-caption">
                             <h1 style={{ color: "white" }}>Welcome To</h1>
                             <h1 style={{ color: "#adefd1ff" }}>The Department of</h1>
                             <h2 style={{ color: "white" }}>Microelectronics and VLSI Technology</h2>
-                            {/* <h1 style={{ color: "white" }}>Technology</h1> */}
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Image2} className="d-block" alt="..." />
+                        <img src={Image2} className="d-block car-image" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Collage Campus</h5>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={Image3} className="d-block" alt="..." />
+                        <img src={Image3} className="d-block car-image" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Collage Campus</h5>
                         </div>
