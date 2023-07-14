@@ -13,11 +13,11 @@ const Faculty_list = () => {
     }
     return (
         <>
-            <div>
+            <div className='decoration-top-rebbon'>
                 <div className="card text-bg-dark">
-                    <img src={photo} className="card-img" alt="..." style={{ height: "300px", opacity: "30%" }} />
-                    <div className="card-img-overlay">
-                        <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Faculty</h1>
+                    <img src={photo} className="card-img" alt="..."/>
+                    <div className="card-img-overlay" data-rebbon-text>
+                        <h1 className="card-title">Faculty</h1>
                     </div>
                 </div>
             </div>

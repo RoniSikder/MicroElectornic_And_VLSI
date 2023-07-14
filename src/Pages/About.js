@@ -4,11 +4,11 @@ const About = () => {
     return (
         <>
             <div>
-                <div>
+                <div className='decoration-top-rebbon'>
                     <div className="card text-bg-dark">
                         <img src={photo} className="card-img" alt="..." style={{ opacity: "30%" }} />
-                        <div className="card-img-overlay">
-                            <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>About Us</h1>
+                        <div className="card-img-overlay" data-rebbon-text>
+                            <h1 className="card-title">About Us</h1>
                         </div>
                     </div>
                 </div>

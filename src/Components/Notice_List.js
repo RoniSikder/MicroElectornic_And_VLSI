@@ -7,11 +7,11 @@ const Notice_List = () => {
         <>
             <div>
                 <div>
-                    <div style={{ color: "white" }}>
+                    <div className='decoration-top-rebbon'>
                         <div className="card text-bg-dark">
-                            <img src={photo} className="card-img" alt="..." style={{ opacity: "30%",height:"15rem" }} />
-                            <div className="card-img-overlay">
-                                <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Notice Board</h1>
+                            <img src={photo} className="card-img" alt="..."/>
+                            <div className="card-img-overlay" data-rebbon-text>
+                                <h1 className="card-title">Notice Board</h1>
                             </div>
                         </div>
                     </div>

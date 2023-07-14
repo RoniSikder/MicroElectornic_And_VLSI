@@ -5,11 +5,11 @@ import { Alumni } from '../User Coustomization Portion/Alumni.js'
 const Alumni_List = () => {
     return (
         <>
-            <div>
+            <div className='decoration-top-rebbon'>
                 <div className="card text-bg-dark">
-                    <img src={photo} className="card-img" alt="..." style={{ height: "300px", opacity: "30%" }} />
-                    <div className="card-img-overlay">
-                        <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Alumni</h1>
+                    <img src={photo} className="card-img" alt="..." />
+                    <div className="card-img-overlay" data-rebbon-text>
+                        <h1 className="card-title">Alumni</h1>
                     </div>
                 </div>
             </div>

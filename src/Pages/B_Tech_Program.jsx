@@ -15,11 +15,11 @@ const B_Tech_Program = () => {
   return (
     <>
       <div>
-        <div style={{ color: "white" }}>
+        <div className='decoration-top-rebbon'>
           <div className="card text-bg-dark">
-            <img src={photo} className="card-img" alt="..." style={{height:"30vh",opacity: "30%" }} />
-            <div className="card-img-overlay">
-              <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Programs</h1>
+            <img src={photo} className="card-img" alt="..." />
+            <div className="card-img-overlay" data-rebbon-text>
+              <h1 className="card-title">Programs</h1>
             </div>
           </div>
         </div>

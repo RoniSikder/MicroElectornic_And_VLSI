@@ -4,11 +4,11 @@ import image from "../Image Components/Decoretion Images/pexels-mike-van-schoond
 const Incomplete_Page = () => {
   return (
     <div id='construction'>
-      <div>
+      <div className='decoration-top-rebbon'>
         <div className="card text-bg-dark">
-          <img src={image} className="card-img" alt="..." style={{ height: "230px", opacity: "30%" }} />
-          <div className="card-img-overlay">
-            <h1 className="card-title" style={{ fontFamily: "'Kanit', sans-serif", fontSize: "80px" }}>Classroom</h1>
+          <img src={image} className="card-img" alt="..." />
+          <div className="card-img-overlay" data-rebbon-text>
+            <h1 className="card-title" >Classroom</h1>
           </div>
         </div>
       </div>
