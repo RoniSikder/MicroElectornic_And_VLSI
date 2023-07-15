@@ -325,6 +325,9 @@ a {
     [data-short]{
         width: 100%;
     }
+    [data-date-big]{
+        display: none;
+    }
     
 }
 
@@ -400,6 +403,9 @@ a {
     [data-frame]{
         width: 30%;
         border: 2px solid white;
+    }
+    [data-date-small]{
+        display: none;
     }
     
 }

@@ -19,10 +19,13 @@ const Alumni_List = () => {
                     {
                         Alumni.map(x =>
                             <div className="card" style={{ borderRadius: "0", border: "none", color: "black", display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-                                <div className='alumni_year' style={{ width: "30vw", borderLeft: "2px solid white", backgroundColor: "rgb(0, 32, 63)" }}>
+                                <div className='alumni_year' data-date-big style={{borderLeft: "2px solid white", backgroundColor: "rgb(0, 32, 63)" }}>
                                     <div style={{ color: "rgb(173, 239, 209)", display: "flex", justifyContent: "center", alignItems: 'center', height: "100%", fontSize: "5dvw" }}>{x.year}</div>
                                 </div>
-                                <div className="card-body" style={{ width: "50vw", textAlign: "center" }}>
+                                <div data-alu-full className="card-body" style={{ textAlign: "center" }}>
+                                    <div className='alumni_year' data-date-small>
+                                        <div style={{ color: "rgb(173, 239, 209)", display: "flex", justifyContent: "center", alignItems: 'center', height: "100%", fontSize: "5dvw" }}>{x.year}</div>
+                                    </div>
                                     <div className='alumni_header' style={{ fontFamily: "'Kanit',sen-serif", fontSize: "3dvw" }}>{x.group_name}</div>
                                     <div>
                                         {
