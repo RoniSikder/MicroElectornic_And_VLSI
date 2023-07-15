@@ -16,12 +16,15 @@ const About = () => {
                     <h5 style={{ color: "#FEE715FF", fontFamily: "'Kanit', sans-serif" }}>About</h5>
                     <div style={{ borderBottom: "2px solid #FEE715FF" }}></div>
                     <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Depertment</h2>
-                    <div style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
-                        <div style={{ width: "50%" }}>
+                    <div data-about-media style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
+                        <div data-about>
                             <p>
                                 The Department of Microelectronics and VLSI Technology envisions to be a leader in
-                                providing state of the art education through excellence in teaching, training, and research in
-                                contemporary areas of Microelectronics, VLSI Design and Embedded Systems as well as it
+                                providing state of the art education through excellence in teaching, training, and research in contemporary areas
+                                <div data-about data-about-small>
+                                    <iframe style={{ height: '40vh', width: '100%', borderRadius: "10px" }} src="https://www.youtube.com/embed/QEnJQsnbJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                of Microelectronics, VLSI Design and Embedded Systems as well as it
                                 aspires to meet the global and socio- economic challenges of the state as well as country. The
                                 Department is one of the Departments of significance in MAKAUT under the School of
                                 Engineering Science. The Department offers AICTE-approved M. Tech programmes in
@@ -31,12 +34,12 @@ const About = () => {
                                 industries and academics and is currently executing several R&amp;D projects.
                             </p>
                         </div>
-                        <div style={{ width: "50%" }}>
-                            <iframe style={{ height: '450px', width: '100%', borderRadius: "10px" }} src="https://www.youtube.com/embed/QEnJQsnbJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div data-about data-about-big>
+                            <iframe style={{ height: '40vh', width: '100%', borderRadius: "10px" }} src="https://www.youtube.com/embed/QEnJQsnbJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div style={{ display: "flex", justifyContent: "space-between" }}>
-                        <div style={{ width: "50%" }}>
+                    <div data-about-media style={{ display: "flex", justifyContent: "space-between" }}>
+                        <div data-about>
                             <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Our Mission</h2>
                             <p>The Department of Microelectronics and VLSI Technology motivates</p>
                             <ul>
@@ -47,7 +50,7 @@ const About = () => {
                                 <li>To develop a positive attitude among students to participate in collaborative research work</li>
                             </ul>
                         </div>
-                        <div style={{ width: "50%", padding: "30px" }}>
+                        <div data-about style={{ marginTop: "30px" }}>
                             <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Our Vision</h2>
                             <p>The Department of Microelectronics and VLSI Technology envisions to be a leader in pursuit of knowledge and wisdom for the holistic development of the rapid technological advancements of society in multi-disciplinary areas through excellence in teaching, training, and research and aspires to meet the global and socio economic challenges of the state as well as country.</p>
                         </div>

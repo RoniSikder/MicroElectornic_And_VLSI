@@ -21,9 +21,9 @@ const Carousal = () => {
                     <div className="carousel-item active">
                         <img src={Image1} className="d-block w-100 car-image" alt="..." style={{ filter: "brightness(70%) opacity(90%)", backgroundColor: "white"}} />
                         <div className="carousel-caption">
-                            <h1 style={{ color: "white" }}>Welcome To</h1>
-                            <h1 style={{ color: "#adefd1ff" }}>The Department of</h1>
-                            <h2 style={{ color: "white" }}>Microelectronics and VLSI Technology</h2>
+                            <h1 data-carusal-text style={{ color: "white" }}>Welcome To</h1>
+                            <h1 data-carusal-text style={{ color: "#adefd1ff" }}>The Department of</h1>
+                            <h2 data-carusal-text style={{ color: "white" }}>Microelectronics and VLSI Technology</h2>
                         </div>
                     </div>
                     <div className="carousel-item">

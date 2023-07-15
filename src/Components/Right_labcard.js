@@ -2,10 +2,8 @@ import React from 'react'
 
 const Right_labcard = ({ data }) => {
     return (
-        <div className="rightcard" style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
-            {/* <img className='mara' src={data.img} /> */}
-
-            <div className="caru" style={{ width: "60vw" }}>
+        <div data-lab-design className="rightcard" style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
+            <div data-lab-big className="caru">
                 <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="10000">
@@ -29,8 +27,35 @@ const Right_labcard = ({ data }) => {
                 </div>
             </div>
 
-            <div className="texta" style={{ width: "40vw" }}>
+            <div className="texta">
                 <h1>{data.name}</h1>
+                <div data-lab-small className="caru">
+                    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active" data-bs-interval="10000">
+                                <img src={data.img[0]} className="d-block w-100" alt="..." />
+                            </div>
+                            <div className="carousel-item" data-bs-interval="2000">
+                                <img src={data.img[1]} className="d-block w-100" alt="..." />
+                            </div>
+                            <div className="carousel-item">
+                                <img src={data.img[2]} className="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+
+
+
                 <p>{data.des}</p>
                 <h1>Tools and Software</h1>
                 {data.used_Software.map(x =>

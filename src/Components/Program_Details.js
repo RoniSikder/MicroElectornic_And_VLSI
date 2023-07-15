@@ -16,11 +16,14 @@ const Program_Details = () => {
 
   const sigma = sessionStorage.getItem("Course_Id")
   let type
+  let direction
   switch (sessionStorage.getItem("Course_Type")) {
     case 'B.Tech':
+      direction = "Bachelor of Technology"
       type = Bachelor
       break;
     case 'M.Tech':
+      direction = "Masters of Technology"
       type = Course
       break;
     default:
@@ -30,19 +33,25 @@ const Program_Details = () => {
   return (
     <>
       <div style={{ padding: "20px" }}>
-        <button className='btn btn-success' onClick={() => { navigation(-1) }}>Close</button>
-        <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "10px" }}>
-          <div>
+        <div className="exiter">
+          <button className='btn btn-primary' style={{ backgroundColor: "transparent",border:"none" }} onClick={() => { navigation(-1) }}><i class="bi bi-arrow-left"></i></button>
+          <p>{direction}{"  >  "}{type[sigma - 1].name}</p>
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-between", paddingBottom: "10px", flexFlow: "wrap" }}>
+          <div data-course-img-small className='card' style={{ border: "none" }}>
+            <img src={type[sigma - 1].imga} alt='' style={{ borderRadius: "5px" }} />
+          </div>
+          <div data-control>
             <h1 style={{ fontFamily: "'Kanit', sans-serif" }}>{type[sigma - 1].name}</h1>
             <p>By Department of Microelectronics and VLSI of Maulana Abul Kalam Azad University of Technology<br />
               Approved by AICTE <img src={photo} style={{ height: "3%", width: "3%" }} alt='' /></p>
           </div>
-          <div className='card' style={{ width: "35%", border: "none" }}>
+          <div data-course-img-big className='card' style={{ border: "none" }}>
             <img src={type[sigma - 1].imga} alt='' style={{ borderRadius: "5px" }} />
           </div>
         </div>
         <div style={{ display: "flex", }}>
-          <div style={{ backgroundColor: "white", color: "black", padding: "20px", width: "75%", borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }}>
+          <div data-course-des style={{ backgroundColor: "white", color: "black", padding: "20px" }}>
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>About The Course</h3>
               <p>{type[sigma - 1].intro}</p>
@@ -51,6 +60,26 @@ const Program_Details = () => {
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>Syllabus</h3>
               <p><a href={type[sigma - 1].syllebus} style={{ color: "red" }} rel='noreferrer' target="_blank">Click me</a> to Download the Syllebus</p>
             </div>
+
+            <div data-info-small >
+              <h4 style={{ fontFamily: "'Kanit', sans-serif" }}>Duration</h4>
+              <p>{type[sigma - 1].duration}</p>
+              <h4 style={{ fontFamily: "'Kanit', sans-serif" }}>Intake Capacity</h4>
+              <p>{type[sigma - 1].intake}</p>
+              <h4 style={{ fontFamily: "'Kanit', sans-serif" }}>Fees Structure</h4>
+              <p>Total Fees : {type[sigma - 1].total_fees}</p>
+              <p>Semester Fees : {type[sigma - 1].Semester_fees}</p>
+              <p>Admission Fees : {type[sigma - 1].Admission_fees}</p>
+              <h4 style={{ fontFamily: "'Kanit', sans-serif" }}>Campas</h4>
+              <p>{type[sigma - 1].campas}</p>
+              <h4 style={{ fontFamily: "'Kanit', sans-serif" }}>Contact</h4>
+              {
+                type[sigma - 1].phone.map(x =>
+                  <p>{x}</p>
+                )
+              }
+            </div>
+
             <div>
               <h3 style={{ fontFamily: "'Kanit', sans-serif" }}>
                 Faculty Members
@@ -59,7 +88,7 @@ const Program_Details = () => {
             <div style={{ display: "flex", flexFlow: "wrap", justifyContent: "space-between" }}>
               {
                 type[sigma - 1].teacher.map(x =>
-                  <div className='fa-div' onClick={() => { gotoDetails(x.namea) }}>
+                  <div data-course-faculty className='fa-div' onClick={() => { gotoDetails(x.namea) }}>
                     <div>
                       <img src={x.fa_img} className="fa-icon" alt='' />
                     </div>
@@ -71,7 +100,7 @@ const Program_Details = () => {
               }
             </div>
           </div>
-          <div style={{ width: "40%", border: "2px solid white", padding: "20px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px" }}>
+          <div data-info-big style={{ border: "2px solid white", padding: "20px", borderTopRightRadius: "10px", borderBottomRightRadius: "10px" }}>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Duration</h4>
             <p>{type[sigma - 1].duration}</p>
             <h4 style={{ fontFamily: "'Kanit', sans-serif", color: "white" }}>Intake Capacity</h4>

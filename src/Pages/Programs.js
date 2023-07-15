@@ -25,11 +25,11 @@ const Programs = () => {
             <div style={{ color: "white", padding: "20px" }}>
                 <div>
                     <h2 style={{ fontFamily: "'Kanit', sans-serif" }}>Masters Of Technology Courses</h2>
-                    <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+                    <div data-mtech-upper style={{ display: "flex", justifyContent: "space-evenly" }}>
                         {
                             Course.map(x =>
-                                <div onClick={()=>{data(x.id)}} className="card" style={{ width: "28rem", cursor: "pointer" }}>
-                                    <img src={x.imga} style={{height:"80%"}} alt=''/>
+                                <div data-mtech onClick={()=>{data(x.id)}} className="card" style={{ cursor: "pointer" }}>
+                                    <img src={x.imga} style={{height:"30vh"}} alt=''/>
                                     <div className="card-body">
                                         <p className="card-text" style={{ color: "black" }}>{x.name}</p>
                                     </div>
