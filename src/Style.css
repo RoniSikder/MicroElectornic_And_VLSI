@@ -407,6 +407,12 @@ a {
     [data-date-small]{
         display: none;
     }
+    [data-date-big]{
+        width: 30vw;
+    }
+    [data-alu-full]{
+        width: 50vw;
+    }
     
 }
 
