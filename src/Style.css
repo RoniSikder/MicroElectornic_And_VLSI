@@ -213,7 +213,7 @@ a {
     width: 85%;
 }
 
-[data-carusal-text]{
+[data-carusal-text] {
     font-size: 3.6vw;
 }
 
@@ -271,64 +271,82 @@ a {
         font-size: 3em;
         font-family: 'Kanit', sans-serif;
     }
-    [data-about]>p{
+
+    [data-about]>p {
         color: #ADEFD1FF;
     }
-    [data-about-big]{
+
+    [data-about-big] {
         display: none;
     }
-    [data-lab-big]{
+
+    [data-lab-big] {
         display: none;
     }
-    [data-lab-small]{
+
+    [data-lab-small] {
         width: 100%;
     }
-    .texta{
+
+    .texta {
         width: 100%;
     }
-    [data-classroom-feature] h5{
+
+    [data-classroom-feature] h5 {
         color: white;
         font-family: 'Kanit', sans-serif;
     }
-    [data-mtech]{
+
+    [data-mtech] {
         margin: 20px 0;
     }
-    [data-mtech-upper]{
+
+    [data-mtech-upper] {
         flex-flow: wrap;
     }
-    [data-course-img-big]{
+
+    [data-course-img-big] {
         display: none;
     }
-    [data-course-img-small]{
+
+    [data-course-img-small] {
         width: 100%;
     }
-    [data-info-big]{
+
+    [data-info-big] {
         display: none;
     }
-    [data-course-des]{
+
+    [data-course-des] {
         border-radius: 10px;
         width: 100%;
     }
-    [data-course-faculty]{
+
+    [data-course-faculty] {
         width: 100dvw;
     }
-    [data-youtube]{
+
+    [data-youtube] {
         width: 100%;
     }
-    [data-faculty-des]{
+
+    [data-faculty-des] {
         display: none;
     }
-    [data-frame]{
+
+    [data-frame] {
         width: 100%;
         border-radius: 10px;
     }
-    [data-short]{
+
+    [data-short] {
         width: 100%;
     }
-    [data-date-big]{
+
+    [data-date-big] {
         display: none;
     }
-    
+
 }
 
 @media (min-width:500px) {
@@ -346,93 +364,116 @@ a {
         font-size: 80px;
         font-family: 'Kanit', sans-serif;
     }
-    [data-about]{
+
+    [data-about] {
         width: 43vw;
     }
-    [data-about-small]{
+
+    [data-about-small] {
         display: none;
     }
-    [data-lab-small]{
+
+    [data-lab-small] {
         display: none;
     }
-    [data-lab-big]{
+
+    [data-lab-big] {
         width: 50vw;
     }
-    .texta{
+
+    .texta {
         width: 30vw;
     }
-    [data-classroom-feature]{
+
+    [data-classroom-feature] {
         width: 20dvw;
     }
-    [data-mtech]{
-        width:28rem;
+
+    [data-mtech] {
+        width: 28rem;
     }
-    [data-course-img-small]{
+
+    [data-course-img-small] {
         display: none;
     }
-    [data-control]{
-        width:50%;
+
+    [data-control] {
+        width: 50%;
     }
-    [data-course-img-big]{
+
+    [data-course-img-big] {
         width: 32%;
     }
-    [data-info-small]{
+
+    [data-info-small] {
         display: none;
     }
-    [data-course-des]{
+
+    [data-course-des] {
         width: 75%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
-    [data-youtube]{
+
+    [data-youtube] {
         width: 65%;
         height: 70vh;
     }
-    [data-youtube]>iframe{
+
+    [data-youtube]>iframe {
         height: 100%;
     }
-    .you{
+
+    .you {
         width: 30%;
     }
-    [data-short]{
+
+    [data-short] {
         display: none;
     }
-    [data-faculty-des]{
+
+    [data-faculty-des] {
         display: flex;
     }
-    [data-frame]{
+
+    [data-frame] {
         width: 30%;
         border: 2px solid white;
     }
-    [data-date-small]{
+
+    [data-date-small] {
         display: none;
     }
-    [data-date-big]{
+
+    [data-date-big] {
         width: 30vw;
     }
-    [data-alu-full]{
+
+    [data-alu-full] {
         width: 50vw;
     }
-    
+
 }
 
-.exiter{
+
+.exiter {
     display: flex;
 }
 
-.exiter>p{
+.exiter>p {
     margin: auto 0px;
 }
 
 
-[data-lab-design]{
+[data-lab-design] {
     height: max-content;
 }
 
 .decoration-top-rebbon h1 {
     font-family: 'Kanit', sans-serif;
 }
-.decoration-top-rebbon img{
+
+.decoration-top-rebbon img {
     opacity: 30%;
 }
 
@@ -446,6 +487,6 @@ a {
     list-style: circle;
 }
 
-[data-about-media]{
+[data-about-media] {
     flex-flow: wrap;
 }

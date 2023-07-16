@@ -9,7 +9,7 @@ const Mob_Navbar = () => {
     };
     return (
         <>
-            <nav className="navbar sticky-top navbar-light bg-light" style={{ fontFamily: "'Righteous', cursive", top: "0px" }}>
+            <nav className="navbar navbar-light bg-light" style={{height:"14vh", fontFamily: "'Righteous', cursive", top: "0px" }}>
                 <div className="container-fluid" style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
                     <div style={{ display: "flex", gap: "20px", width: "60%" }}>
                         <img src={photo} alt='' style={{ width: "5rem" }} />
@@ -23,7 +23,7 @@ const Mob_Navbar = () => {
                     </button>
                 </div>
             </nav>
-            <div className="collapse" id="navbarToggleExternalContent">
+            <div data-abs className="collapse" id="navbarToggleExternalContent">
                 <ul className="nav nav-pills" style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
                     <li className="nav-item">
                         <a className="nav-link" aria-current="page" href="/">Home</a>
@@ -62,8 +62,8 @@ const Mob_Navbar = () => {
                         <ul className="collapse" id="Exampler1">
                             <li><a className="dropdown-item" href="/projects">Projects</a></li>
                             <li><a className="dropdown-item" href="/oppertunity">Opportunitie</a></li>
-                            <li><button className="dropdown-item" target="_blank" onClick={() => openInNewTab("https://makautwb.ac.in/page.php?id=214")}>Placement</button></li>
-                            <li><a className="dropdown-item" target="_blank" href={Magazin}>Student Magazine</a></li>
+                            <li><button className="dropdown-item" target="_blank"  onClick={() => openInNewTab("https://makautwb.ac.in/page.php?id=214")}>Placement</button></li>
+                            <li><a className="dropdown-item" target="_blank" rel="noreferrer" href={Magazin}>Student Magazine</a></li>
                             <li><a className="dropdown-item" href="/notice">Notice</a></li>
                         </ul>
                     </li>
