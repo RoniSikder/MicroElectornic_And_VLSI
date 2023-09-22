@@ -3,6 +3,9 @@ import { Notice_Data } from '../User Coustomization Portion/Notice_Data'
 import photo from '../Image Components/Decoretion Images/kelly-sikkema-oYlvf3pdBw0-unsplash.jpg'
 
 const Notice_List = () => {
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
     return (
         <>
             <div>
@@ -24,7 +27,7 @@ const Notice_List = () => {
                                     <h2 className="card-title" style={{ color: "black", fontFamily: "'Kanit', sans-serif" }}>{x.name}</h2>
                                     <p className="card-text" style={{ color: "green" }} >{x.date}</p>
                                     <p className="card-text" style={{ color: "orange" }} >{x.about}</p>
-                                    <a href="#" className="btn btn-primary">go to details</a>
+                                    <button onClick={()=>{openInNewTab(x.source)}} className="btn btn-primary">go to details</button>
                                 </div>
                             </div>
                         )
