@@ -15,10 +15,10 @@ export const Faculty_data = [
         imaga: photo2,
         projects: [
             {
-                name:"Optimization of tilt angle of a fixed solar panel based on micro-climatic data of West Bengal",
-                funded_by:"Department Of Science & Technology,Government of West Bengal",
-                duration:"4 years",
-                role:"Principal Investigator"
+                name: "Optimization of tilt angle of a fixed solar panel based on micro-climatic data of West Bengal",
+                funded_by: "Department Of Science & Technology,Government of West Bengal",
+                duration: "4 years",
+                role: "Principal Investigator"
             }
         ],
         patents: [],
@@ -36,24 +36,25 @@ export const Faculty_data = [
             " Arnab Som, and Madhumita Das Sarkar “ A Simulation Study on The Influence of Defects in In0.52Ga0.48N Solar Cell” in an International Conference on Nanocomputing & Nano Biotechnology, NanoBioCon 2016 organised by MAKAUT, WB[ISBN:978-93-80813-49-2]",
             " Shuvendu Singh, Madhumita Das Sarkar and Rahul Kumar  “Studies on Collidal Barium Zirconate Titanate Dispersion medium for Possible Bottom-up Applications” ” in an International Conference on Nanocomputing & Nano Biotechnology, NanoBioCon 2016 organised by MAKAUT, WB [ISBN: 978-93-80813-49-3]",
         ],
-        google_scholar:"https://scholar.google.com/citations?user=VR95ByMAAAAJ&hl=en&oi=ao"
+        google_scholar: "https://scholar.google.com/citations?user=VR95ByMAAAAJ&hl=en&oi=ao"
     },
     {
         id: 2,
         type: "Faculty",
         imaga: photo3,
-        projects: [{
-            name: "IoT based smart system   design and development for precision farming and technology dissemination among farming community.",
-            funded_by: "Centre for Development of Advanced Computing (C-DAC) kolkata.",
-            duration: "9 months",
-            role: "Chief Investigator"
-        },
-        {
-            name: "Analog Digital Mix Signal Processor - A novel architecture for signal processing.",
-            funded_by: "Ministry of Electronics and Information Technology, Govt. of India.",
-            duration: "5 years",
-            role: "Co-Chief Investigator"
-        }
+        projects: [
+            {
+                name: "IoT based smart system   design and development for precision farming and technology dissemination among farming community.",
+                funded_by: "Centre for Development of Advanced Computing (C-DAC) kolkata.",
+                duration: "9 months",
+                role: "Chief Investigator"
+            },
+            {
+                name: "Analog Digital Mix Signal Processor - A novel architecture for signal processing.",
+                funded_by: "Ministry of Electronics and Information Technology, Govt. of India.",
+                duration: "5 years",
+                role: "Chief Investigator"
+            }
         ],
         patents: [{
             name: "Analog -Digital signal processor",
@@ -66,7 +67,7 @@ export const Faculty_data = [
             "Embedded System Design",
         ],
         name: "Dr. Mihir Kumar Mahata",
-        designation: "Assistant Professor and Head Of The Department",
+        designation: "Associate Professor and Head Of The Department",
         department: "Microelectronics and VLSI Technology",
         email: "mihir.mahata@gmail.com",
         des: "Dr. Mahata has received his Ph.D. degree from Indian Institute of Technology, Kharagpur in 2016. He has Worked as Assistant Professor in the Dept. of Electronics & Telicommunication Engineering, Indian Institute of Engineering Science & Technology, Shibpur , Howrah ,WB, a premier Engineering Institute in India from 2015-2019. Also, he has Industry work experience. He has worked as Executive in Datagen Power Services Pvt. Ltd. from 2007 to 2009. Currently, he is working as Assistant Professor (Stage II), in the Dept. of Microelectronics & VLSI Technology, MAKAUT, WB from 2019 to till date. His research interest includes 1. Emerging Semiconductor Devices (TFET, FinFET, Multi-junction Solar Cells), 2. Analog and Digital VLSI Design and 3. Low power VLSI Design.",
@@ -94,7 +95,7 @@ export const Faculty_data = [
             "Mihir Kumar Mahata, Soumyadip Chatterjee, Tania Das, Angsuman Sarkar,” Device Performance Analysis for Different Gate Locations in AlGaN/GaN HEMT by Silvaco Simulation”, 2023 IEEE Devices for Integrated Circuit (DevIC), 7-8 April, 2023, Kalyani, India, pp-119-123.",
             "Somnath Dasgupta, Syed Sadique Anwer Askari, Gufran Ahmad, Mihir Kumar Mahata,” Effect of Electron Transport Layer on Tin based Perovskite Solar Cells”, 2023 IEEE Devices for Integrated Circuit (DevIC), 7-8 April, 2023, Kalyani, India, pp-148-151.",
         ],
-        google_scholar:"https://scholar.google.co.in/citations?user=-HOHZ7AAAAAJ&hl=en"
+        google_scholar: "https://scholar.google.co.in/citations?user=-HOHZ7AAAAAJ&hl=en"
     },
 
     {
@@ -124,13 +125,20 @@ export const Faculty_data = [
             "A simple chemical reduction method for preparation of Boron doped β-FeSi2 Prasanta Kumar Guha and Panchanan Pramanik Sabyasachi Sen, Debdipto Acharya, Ria Bose 9th Interdisciplinary Symposium on Materials Chemistry, Society for Materials Chemistry, Mumbai & Chemistry Division Bhabha Atomic Research Centre, Trombay, Mumbai-400085",
             "Design and performance Optimization of β-FeSi2 based p-i-n Homojunction Solar Cell Sabyasachi Sen, Ria Bose, Madhumita Das Sarkar, Charan Prusty, Prasanta Kumar Guha, Panchanan Pramanik 9th Interdisciplinary Symposium on Materials Chemistry, Society for Materials Chemistry, Mumbai & Chemistry Division Bhabha Atomic Research Centre, Trombay, Mumbai-400085"
         ],
-        google_scholar:"https://scholar.google.com/citations?user=cpnS93wAAAAJ&hl=en"
+        google_scholar: "https://scholar.google.com/citations?user=cpnS93wAAAAJ&hl=en"
     },
     {
         id: 4,
         type: "Faculty",
         imaga: photo5,
-        projects: [],
+        projects: [
+            {
+                name: "Analog Digital Mix Signal Processor - A novel architecture for signal processing.",
+                funded_by: "Ministry of Electronics and Information Technology, Govt. of India.",
+                duration: "5 years",
+                role: "Co-Chief Investigator"
+            }
+        ],
         patents: [],
         research: [
             "Fault Tolerant Memory Systems",
@@ -153,7 +161,7 @@ export const Faculty_data = [
             " Somak Das, Sowvik Dey  “FPGA Based Design of a Fine-Grained Fault Tolerant Interleaved Memory”, Proc. of IEEE Conf. on ICACCCT, Ramanathapuram, Tamilnadu, 2014. ISBN No. 978-1-4799-3914-5/14",
             " Somak Das, Sowvik Dey  “Exploiting Fault Tolerance within Cache Memory Structures”, Proc. of IEEE Conf. on ICHPCA, Bhubaneswar, Orissa, 2014. ISBN No. 978-1-4799-5957-0/14"
         ],
-        google_scholar:"https://scholar.google.com/citations?user=1q7ND6YAAAAJ&hl=en"
+        google_scholar: "https://scholar.google.com/citations?user=1q7ND6YAAAAJ&hl=en"
     },
     {
         id: 5,
@@ -178,7 +186,7 @@ export const Faculty_data = [
             " R. Bose and J. N. Roy (2021), “Three Dimensional channel potential model of a triple gate MOSFET based on conformal mapping technique”, IETE Technical Review, Available: 10.1080/02564602.2021.1903348 ",
             " Ria Bose & J. N. Roy (2021) Analytical 3D Surface Potential Model of a Junction-Based Triple-Gate MOSFET Device, IETE Technical Review, DOI: 10.1080/02564602.2021.1927864"
         ],
-        google_scholar:"https://scholar.google.com/citations?user=CpAItoAAAAAJ&hl=en"
+        google_scholar: "https://scholar.google.com/citations?user=CpAItoAAAAAJ&hl=en"
     },
     {
         id: 6,
@@ -197,7 +205,7 @@ export const Faculty_data = [
         acc: [
 
         ],
-        google_scholar:"https://scholar.google.com/citations?user=gvlpWDgAAAAJ&hl=en"
+        google_scholar: "https://scholar.google.com/citations?user=gvlpWDgAAAAJ&hl=en"
     }
 ]
 
