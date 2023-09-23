@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo.jpg'
+import photo from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo-removebg.png'
 import { Link } from 'react-router-dom'
 import Magazin from '../Image Components/Magazin.pdf'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 // import '../CSS Components/Navbar.css'
-import photo from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo.jpg'
+import photo from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo-removebg.png'
 import Magazin from '../Image Components/Magazin.pdf'
 import { Link } from 'react-router-dom'
 
