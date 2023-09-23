@@ -127,7 +127,7 @@ const Footer = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" target="_blank" href="https://makautwb.ac.in/page.php?id=221">  Scholership Portal</a>
+                                    <a className="dropdown-item" target="_blank" href="https://makautwb.ac.in/page.php?id=221"> Scholarship Portal</a>
                                 </li>
                                 <li>
                                     Notice
@@ -156,7 +156,7 @@ const Footer = () => {
                                 Tech News
                             </li>
                             <li>
-                                <a className="dropdown-item" target="_blank" href="https://makautwb.ac.in/page.php?id=221">  Scholership Portal</a>
+                                <a className="dropdown-item" target="_blank" href="https://makautwb.ac.in/page.php?id=221">  Scholarship Portal</a>
                             </li>
                             <li>
                                 <a className="dropdown-item" target="_blank" href="http://gallery.wbut.ac.in/">  Gallery</a>

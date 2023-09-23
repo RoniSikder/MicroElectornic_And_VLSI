@@ -203,7 +203,8 @@ export const Faculty_data = [
         email: "taniadas53@gmail.com",
         des: "Mrs. Tania Das has passed M.Tech in microelectronics and VLSI  from Jadavpur University. Miss Das had worked on pH sensor made by suspended gate field effect transistor , Equalizer using Whale optimization algorithm, Microcontroller based Digital Clock using RTC(DS 12887)",
         acc: [
-
+            " T. Das, A. Sarkar and M. K. Mahata, 'Performance Analysis of New Dual-Pocket Tunnel-FET-based Biosensor,' 2022 IEEE International Conference of Electron Devices Society Kolkata Chapter (EDKCON), Kolkata, India, 2022, pp. 405-408, doi: 10.1109/EDKCON56221.2022.10032953.",
+            " M. K. Mahata, S. Chatterjee, T. Das and A. Sarkar, 'Device Performance Analysis for Different Gate Locations in AlGaN/GaN HEMT by Silvaco Simulation,' 2023 IEEE Devices for Integrated Circuit (DevIC), Kalyani, India, 2023, pp. 119-123, doi: 10.1109/DevIC57758.2023.10134979"
         ],
         google_scholar: "https://scholar.google.com/citations?user=gvlpWDgAAAAJ&hl=en"
     }

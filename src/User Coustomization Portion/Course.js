@@ -34,7 +34,7 @@ export const Course = [
             },
             {
                 namea: "Dr. Mihir Kumar Mahata",
-                designation: "Assistant Professor and HOD",
+                designation: "Associate Professor and HOD",
                 fa_img:teacher3
             },
             {
@@ -84,7 +84,7 @@ export const Course = [
             },
             {
                 namea: "Dr. Mihir Kumar Mahata",
-                designation: "Assistant Professor and HOD",
+                designation: "Associate Professor and HOD",
                 fa_img:teacher3
             },
             {
@@ -137,7 +137,7 @@ export const Bachelor = [
             },
             {
                 namea: "Dr. Mihir Kumar Mahata",
-                designation: "Assistant Professor and HOD",
+                designation: "Associate Professor and HOD",
                 fa_img:teacher3
             },
             {
