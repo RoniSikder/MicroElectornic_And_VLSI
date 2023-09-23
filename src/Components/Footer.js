@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo.jpg'
+import image1 from '../Image Components/Maulana_Abul_Kalam_Azad_University_of_Technology_Logo-removebg.png'
 import { Link } from "react-router-dom"
 const Footer = () => {
     return (
