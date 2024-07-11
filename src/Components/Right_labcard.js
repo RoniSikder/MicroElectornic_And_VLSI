@@ -1,61 +1,16 @@
 import React from 'react'
+import Lab_Carousal_Desktop from './Lab_Carousal_Desktop'
+import Lab_Carousal_Mobile from './Lab_Carousal_Mobile'
 
-const Right_labcard = ({ data }) => {
+const Right_labcard = ({ data, cls }) => {
     return (
-        <div data-lab-design className="rightcard" style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
-            <div data-lab-big className="caru">
-                <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="10000">
-                            <img src={data.img[0]} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <img src={data.img[1]} className="d-block w-100" alt="..." />
-                        </div>
-                        <div className="carousel-item">
-                            <img src={data.img[2]} className="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+        <div data-lab-design className="rightcard" key="right" style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
+
+            <Lab_Carousal_Desktop data={data} cls={`${cls}-big-right`}/>
 
             <div className="texta">
                 <h1>{data.name}</h1>
-                <div data-lab-small className="caru">
-                    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active" data-bs-interval="10000">
-                                <img src={data.img[0]} className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item" data-bs-interval="2000">
-                                <img src={data.img[1]} className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src={data.img[2]} className="d-block w-100" alt="..." />
-                            </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-
-
-
+                <Lab_Carousal_Mobile data={data} cls={`${cls}-small-right`}/>
                 <p>{data.des}</p>
                 <h1>Tools and Software</h1>
                 {data.used_Software.map(x =>

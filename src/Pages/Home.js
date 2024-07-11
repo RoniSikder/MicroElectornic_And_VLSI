@@ -5,7 +5,7 @@ import Notice_Card from '../Components/Notice_Card'
 import { Notice_Data } from '../User Coustomization Portion/Notice_Data'
 
 const Home = () => {
-  let index = Notice_Data.length;
+  // let index = Notice_Data.length;
   return (
     <>
       <div className="full-container">
@@ -27,9 +27,9 @@ const Home = () => {
             <h1 style={{ color: "black", fontFamily: "'Kanit', sans-serif", position: "sticky" }}>Notice</h1>
             <div className='home_notic' style={{ width: "100%", height: "70vh", overflow: "scroll", backgroundColor: "#F1E1AD", textAlign: "center", borderRadius: "10px", padding: "10px 10px" }}>
               <div style={{ padding: "40px", display: "flex", justifyContent: "space-around", flexDirection: "column", color: "#00203FFF" }}>
-                <Notice_Card id={index - 1} />
-                <Notice_Card id={index - 2} />
-                <Notice_Card id={index - 3} />
+                <Notice_Card id={0} />
+                <Notice_Card id={1} />
+                <Notice_Card id={2} />
               </div>
             </div>
             <Link to="/notice"><button className="btn btn-warning load">Load More</button></Link>

@@ -9,7 +9,7 @@ const LabInfo = () => {
             <div className="lineing"style={{marginTop:"10px"}}>
                 {
                     labData.map(x => 
-                        x.id%2===0?<Left_Labcard data = {x}/>:<Right_labcard data={x}/>
+                        x.id%2===0?<Left_Labcard data = {x} cls={`carousel-${x.id}`}/>:<Right_labcard data={x} cls={`carousel-${x.id}`}/>
                     )
                 }
             </div>
